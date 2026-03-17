@@ -1,7 +1,8 @@
-import { useState, useEffect, useMemo, useCallback } from 'react'
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
 import './styles.css'
 import { useBookmarks } from './hooks/useBookmarks'
 import { stripHtml } from './utils'
+import { trackEvent } from './analytics'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import DayTabs from './components/DayTabs'
@@ -17,6 +18,17 @@ function App() {
   const [selectedEvent, setSelectedEvent] = useState(null)
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const { bookmarks, toggle: toggleBookmark, count: bookmarkCount } = useBookmarks()
+  const searchTimer = useRef(null)
+
+  const handleSearchChange = useCallback((value) => {
+    setSearch(value)
+    clearTimeout(searchTimer.current)
+    if (value.length >= 2) {
+      searchTimer.current = setTimeout(() => {
+        trackEvent('search', { search_term: value })
+      }, 800)
+    }
+  }, [])
 
   useEffect(() => {
     fetch(import.meta.env.BASE_URL + 'data.json')
@@ -89,10 +101,10 @@ function App() {
       <Header
         data={data}
         search={search}
-        onSearchChange={setSearch}
+        onSearchChange={handleSearchChange}
         bookmarks={bookmarks}
         bookmarkOnly={bookmarkOnly}
-        onToggleBookmarkOnly={() => setBookmarkOnly(v => !v)}
+        onToggleBookmarkOnly={() => { setBookmarkOnly(v => { trackEvent('toggle_my_events', { enabled: !v }); return !v }); }}
       />
       <div className="main">
         <Sidebar
@@ -123,7 +135,7 @@ function App() {
       </div>
       <button
         className="sidebar-toggle"
-        onClick={() => setSidebarOpen(v => !v)}
+        onClick={() => { trackEvent('sidebar_toggle'); setSidebarOpen(v => !v) }}
       >
         <i className="fa-solid fa-bars"></i>
       </button>

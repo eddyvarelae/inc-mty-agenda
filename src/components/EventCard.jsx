@@ -1,4 +1,5 @@
 import { fmtTimeRange } from '../utils'
+import { trackEvent } from '../analytics'
 
 export default function EventCard({ event, isBookmarked, onToggleBookmark, onClick }) {
   const speakers = event.speakers.slice(0, 3)
@@ -9,7 +10,7 @@ export default function EventCard({ event, isBookmarked, onToggleBookmark, onCli
   if (event.perfil) tags.push(event.perfil)
 
   return (
-    <div className="event-card" onClick={onClick}>
+    <div className="event-card" onClick={() => { trackEvent('event_open', { event_id: event.id, event_name: event.name }); onClick() }}>
       <button
         className={`bookmark-btn ${isBookmarked ? 'active' : ''}`}
         onClick={e => { e.stopPropagation(); onToggleBookmark(event.id) }}

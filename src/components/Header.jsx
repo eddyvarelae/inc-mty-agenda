@@ -1,11 +1,13 @@
 import { downloadICS } from '../utils'
 import { useGoogleCalendar } from '../hooks/useGoogleCalendar'
+import { trackEvent } from '../analytics'
 
 export default function Header({ data, search, onSearchChange, bookmarks, bookmarkOnly, onToggleBookmarkOnly }) {
   const bookmarkCount = Object.keys(bookmarks).length
   const gcal = useGoogleCalendar()
 
   function exportAll() {
+    trackEvent('export_all_ics', { event_count: data.events.length })
     downloadICS(data.events, 'incmty-2026-all-events.ics')
   }
 
@@ -15,6 +17,7 @@ export default function Header({ data, search, onSearchChange, bookmarks, bookma
       alert('No events bookmarked yet! Click the star on events to add them to your calendar.')
       return
     }
+    trackEvent('export_bookmarked_ics', { event_count: bookmarked.length })
     downloadICS(bookmarked, 'incmty-2026-my-agenda.ics')
   }
 
@@ -24,6 +27,7 @@ export default function Header({ data, search, onSearchChange, bookmarks, bookma
       alert('No events bookmarked yet! Click the star on events to add them to your calendar.')
       return
     }
+    trackEvent('google_cal_bulk_add', { event_count: bookmarked.length })
     try {
       await gcal.addEvents(bookmarked)
     } catch (err) {

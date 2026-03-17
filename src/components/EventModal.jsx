@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { fmtDayLabel, fmtTimeRange, stripHtml, truncate, downloadICS, googleCalendarUrl } from '../utils'
 import { useGoogleCalendar } from '../hooks/useGoogleCalendar'
+import { trackEvent } from '../analytics'
 
 function SpeakerCard({ speaker }) {
   const [expanded, setExpanded] = useState(false)
@@ -14,7 +15,7 @@ function SpeakerCard({ speaker }) {
         <div className="speaker-name">
           {speaker.name}{' '}
           {speaker.linkedin && (
-            <a href={speaker.linkedin} target="_blank" rel="noopener noreferrer" onClick={e => e.stopPropagation()}>
+            <a href={speaker.linkedin} target="_blank" rel="noopener noreferrer" onClick={e => { e.stopPropagation(); trackEvent('speaker_linkedin_click', { speaker_name: speaker.name }) }}>
               <i className="fa-brands fa-linkedin"></i>
             </a>
           )}
@@ -47,11 +48,13 @@ export default function EventModal({ event, isBookmarked, onToggleBookmark, onCl
 
   function handleExport(e) {
     e.stopPropagation()
+    trackEvent('modal_export_ics', { event_id: event.id, event_name: event.name })
     downloadICS([event], `incmty-${event.name.substring(0, 30).replace(/[^a-zA-Z0-9]/g, '-')}.ics`)
   }
 
   async function handleGoogleCal(e) {
     e.stopPropagation()
+    trackEvent('modal_google_cal', { event_id: event.id, event_name: event.name })
     try {
       await gcal.addEvents([event])
     } catch (err) {
@@ -95,7 +98,7 @@ export default function EventModal({ event, isBookmarked, onToggleBookmark, onCl
               href={googleCalendarUrl(event)}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={e => e.stopPropagation()}
+              onClick={e => { e.stopPropagation(); trackEvent('modal_google_cal_link', { event_id: event.id, event_name: event.name }) }}
             >
               <i className="fa-brands fa-google"></i> Google Calendar
             </a>

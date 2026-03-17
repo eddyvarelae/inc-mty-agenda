@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react'
+import { trackEvent } from '../analytics'
 
 const STORAGE_KEY = 'incmty-bookmarks'
 
@@ -16,8 +17,13 @@ export function useBookmarks() {
   const toggle = useCallback((id) => {
     setBookmarks(prev => {
       const next = { ...prev }
-      if (next[id]) delete next[id]
-      else next[id] = true
+      if (next[id]) {
+        delete next[id]
+        trackEvent('bookmark_remove', { event_id: id })
+      } else {
+        next[id] = true
+        trackEvent('bookmark_add', { event_id: id })
+      }
       localStorage.setItem(STORAGE_KEY, JSON.stringify(next))
       return next
     })

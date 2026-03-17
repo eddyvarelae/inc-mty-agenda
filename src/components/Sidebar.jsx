@@ -1,3 +1,5 @@
+import { trackEvent } from '../analytics'
+
 const FILTER_SECTIONS = [
   { key: 'stage', label: 'Stage / Venue', dataKey: 'stages' },
   { key: 'tematica', label: 'Topic', dataKey: 'tematicas' },
@@ -33,7 +35,7 @@ export default function Sidebar({ data, filters, activeDay, onFilterChange, onCl
                     key={item}
                     className={`chip ${active ? 'active' : ''}`}
                     title={item}
-                    onClick={() => onFilterChange(key, active ? null : item)}
+                    onClick={() => { trackEvent('filter_click', { filter_type: key, filter_value: active ? 'clear' : item }); onFilterChange(key, active ? null : item) }}
                   >
                     {display}<span className="count">{count}</span>
                   </div>
@@ -43,7 +45,7 @@ export default function Sidebar({ data, filters, activeDay, onFilterChange, onCl
           </div>
         ))}
         <div style={{ marginTop: '1rem' }}>
-          <button className="btn btn-sm" onClick={onClear} style={{ width: '100%' }}>
+          <button className="btn btn-sm" onClick={() => { trackEvent('filter_clear_all'); onClear() }} style={{ width: '100%' }}>
             Clear all filters
           </button>
         </div>
