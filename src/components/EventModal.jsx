@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { fmtDayLabel, fmtTimeRange, stripHtml, truncate, downloadICS } from '../utils'
+import { fmtDayLabel, fmtTimeRange, stripHtml, truncate, downloadICS, googleCalendarUrl } from '../utils'
 
 function SpeakerCard({ speaker }) {
   const [expanded, setExpanded] = useState(false)
@@ -67,8 +67,17 @@ export default function EventModal({ event, isBookmarked, onToggleBookmark, onCl
             <i className={`fa-${isBookmarked ? 'solid' : 'regular'} fa-star`}></i> {isBookmarked ? 'Bookmarked' : 'Bookmark'}
           </button>
           <button className="btn" onClick={handleExport}>
-            <i className="fa-solid fa-calendar-plus"></i> Add to Calendar
+            <i className="fa-solid fa-calendar-plus"></i> .ics
           </button>
+          <a
+            className="btn"
+            href={googleCalendarUrl(event)}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={e => e.stopPropagation()}
+          >
+            <i className="fa-brands fa-google"></i> Google Calendar
+          </a>
         </div>
         <div
           className="modal-desc"

@@ -66,6 +66,32 @@ export function makeICS(events) {
   return lines.join('\r\n') + '\r\n'
 }
 
+export function googleCalendarUrl(ev) {
+  const start = ev.start.replace(/[-:]/g, '').replace('.000Z', 'Z')
+  const end = ev.end.replace(/[-:]/g, '').replace('.000Z', 'Z')
+  let desc = stripHtml(ev.description)
+  const speakers = ev.speakers.map(s => s.name).join(', ')
+  if (speakers) desc += `\n\nSpeakers: ${speakers}`
+
+  const params = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: ev.name,
+    dates: `${start}/${end}`,
+    details: desc.substring(0, 1500),
+    location: ev.location || '',
+  })
+  return `https://calendar.google.com/calendar/render?${params.toString()}`
+}
+
+export function openGoogleCalendarBulk(events) {
+  // Open first event immediately, rest with small delays to avoid popup blockers
+  events.forEach((ev, i) => {
+    setTimeout(() => {
+      window.open(googleCalendarUrl(ev), '_blank')
+    }, i * 600)
+  })
+}
+
 export function downloadICS(events, filename) {
   const ics = makeICS(events)
   const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' })
