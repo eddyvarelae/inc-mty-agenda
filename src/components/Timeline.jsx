@@ -12,7 +12,7 @@ export default function Timeline({ events, activeDay, bookmarks, filters, onTogg
           <div className="stat"><strong>0</strong> events</div>
         </div>
         <div className="empty-state">
-          <div className="icon">&#128204;</div>
+          <div className="icon"><i className="fa-solid fa-filter-circle-xmark"></i></div>
           <p>No events match your filters</p>
         </div>
       </>

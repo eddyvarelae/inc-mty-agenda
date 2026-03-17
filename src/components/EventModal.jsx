@@ -14,7 +14,7 @@ function SpeakerCard({ speaker }) {
           {speaker.name}{' '}
           {speaker.linkedin && (
             <a href={speaker.linkedin} target="_blank" rel="noopener noreferrer" onClick={e => e.stopPropagation()}>
-              LinkedIn
+              <i className="fa-brands fa-linkedin"></i>
             </a>
           )}
         </div>
@@ -57,17 +57,17 @@ export default function EventModal({ event, isBookmarked, onToggleBookmark, onCl
         </div>
         <div className="modal-title">{event.name}</div>
         {event.location && (
-          <div className="modal-location">&#128205; {event.location}</div>
+          <div className="modal-location"><i className="fa-solid fa-location-dot"></i> {event.location}</div>
         )}
         <div className="modal-actions">
           <button
             className={`btn ${isBookmarked ? 'btn-primary' : ''}`}
             onClick={(e) => { e.stopPropagation(); onToggleBookmark(event.id) }}
           >
-            {isBookmarked ? '\u2605 Bookmarked' : '\u2606 Bookmark'}
+            <i className={`fa-${isBookmarked ? 'solid' : 'regular'} fa-star`}></i> {isBookmarked ? 'Bookmarked' : 'Bookmark'}
           </button>
           <button className="btn" onClick={handleExport}>
-            &#128197; Add to Calendar
+            <i className="fa-solid fa-calendar-plus"></i> Add to Calendar
           </button>
         </div>
         <div

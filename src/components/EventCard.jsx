@@ -15,13 +15,13 @@ export default function EventCard({ event, isBookmarked, onToggleBookmark, onCli
         onClick={e => { e.stopPropagation(); onToggleBookmark(event.id) }}
         title={isBookmarked ? 'Remove bookmark' : 'Bookmark'}
       >
-        {isBookmarked ? '\u2605' : '\u2606'}
+        <i className={`fa-${isBookmarked ? 'solid' : 'regular'} fa-star`}></i>
       </button>
       <div className="event-time">{fmtTimeRange(event.start, event.end)}</div>
       <div className="event-title">{event.name}</div>
       {event.location && (
         <div className="event-location">
-          <span>&#128205;</span>
+          <i className="fa-solid fa-location-dot"></i>
           {event.location}
         </div>
       )}

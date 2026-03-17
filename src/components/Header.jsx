@@ -23,7 +23,7 @@ export default function Header({ data, search, onSearchChange, bookmarks, bookma
           incMTY<small>Festival 2026 Agenda</small>
         </div>
         <div className="search-box">
-          <span className="search-icon">&#128269;</span>
+          <span className="search-icon"><i className="fa-solid fa-magnifying-glass"></i></span>
           <input
             type="text"
             placeholder="Search events, speakers, topics..."
@@ -36,13 +36,13 @@ export default function Header({ data, search, onSearchChange, bookmarks, bookma
             className={`btn ${bookmarkOnly ? 'btn-primary' : ''}`}
             onClick={onToggleBookmarkOnly}
           >
-            &#9733; My Events <span className="bookmark-count">{bookmarkCount}</span>
+            <i className="fa-solid fa-star"></i> My Events <span className="bookmark-count">{bookmarkCount}</span>
           </button>
           <button className="btn btn-primary" onClick={exportAll}>
-            &#128197; All Events .ics
+            <i className="fa-solid fa-calendar-days"></i> All Events .ics
           </button>
           <button className="btn btn-primary" onClick={exportBookmarked}>
-            &#11088; Export My Events
+            <i className="fa-solid fa-file-export"></i> Export My Events
           </button>
         </div>
       </div>

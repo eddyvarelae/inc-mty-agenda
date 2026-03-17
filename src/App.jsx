@@ -124,7 +124,7 @@ function App() {
         className="sidebar-toggle"
         onClick={() => setSidebarOpen(v => !v)}
       >
-        &#9776;
+        <i className="fa-solid fa-bars"></i>
       </button>
       {selectedEvent && (
         <EventModal
