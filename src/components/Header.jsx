@@ -1,7 +1,9 @@
-import { downloadICS, openGoogleCalendarBulk } from '../utils'
+import { downloadICS } from '../utils'
+import { useGoogleCalendar } from '../hooks/useGoogleCalendar'
 
 export default function Header({ data, search, onSearchChange, bookmarks, bookmarkOnly, onToggleBookmarkOnly }) {
   const bookmarkCount = Object.keys(bookmarks).length
+  const gcal = useGoogleCalendar()
 
   function exportAll() {
     downloadICS(data.events, 'incmty-2026-all-events.ics')
@@ -16,16 +18,17 @@ export default function Header({ data, search, onSearchChange, bookmarks, bookma
     downloadICS(bookmarked, 'incmty-2026-my-agenda.ics')
   }
 
-  function addToGoogleCalendar() {
+  async function addToGoogleCalendar() {
     const bookmarked = data.events.filter(e => bookmarks[e.id])
     if (bookmarked.length === 0) {
       alert('No events bookmarked yet! Click the star on events to add them to your calendar.')
       return
     }
-    if (bookmarked.length > 10) {
-      if (!confirm(`This will open ${bookmarked.length} tabs in Google Calendar. Continue?`)) return
+    try {
+      await gcal.addEvents(bookmarked)
+    } catch (err) {
+      alert(`Failed to add events: ${err.message}`)
     }
-    openGoogleCalendarBulk(bookmarked)
   }
 
   return (
@@ -61,10 +64,25 @@ export default function Header({ data, search, onSearchChange, bookmarks, bookma
             <i className="fa-solid fa-file-export"></i>
             <span className="btn-label">Export</span>
           </button>
-          <button className="btn btn-primary" onClick={addToGoogleCalendar} title="Add starred events to Google Calendar">
-            <i className="fa-brands fa-google"></i>
-            <span className="btn-label">Google Cal</span>
-          </button>
+          {gcal.isConfigured && (
+            <button
+              className="btn btn-primary btn-google"
+              onClick={addToGoogleCalendar}
+              disabled={gcal.status === 'loading'}
+              title="Add starred events to Google Calendar"
+            >
+              <i className="fa-brands fa-google"></i>
+              <span className="btn-label">
+                {gcal.status === 'loading'
+                  ? `${gcal.progress.done}/${gcal.progress.total}`
+                  : gcal.status === 'success'
+                    ? 'Added!'
+                    : 'Google Cal'}
+              </span>
+              {gcal.status === 'loading' && <i className="fa-solid fa-spinner fa-spin"></i>}
+              {gcal.status === 'success' && <i className="fa-solid fa-check"></i>}
+            </button>
+          )}
         </div>
       </div>
     </header>

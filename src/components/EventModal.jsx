@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { fmtDayLabel, fmtTimeRange, stripHtml, truncate, downloadICS, googleCalendarUrl } from '../utils'
+import { useGoogleCalendar } from '../hooks/useGoogleCalendar'
 
 function SpeakerCard({ speaker }) {
   const [expanded, setExpanded] = useState(false)
@@ -37,6 +38,7 @@ function SpeakerCard({ speaker }) {
 }
 
 export default function EventModal({ event, isBookmarked, onToggleBookmark, onClose }) {
+  const gcal = useGoogleCalendar()
   if (!event) return null
 
   function handleOverlayClick(e) {
@@ -46,6 +48,15 @@ export default function EventModal({ event, isBookmarked, onToggleBookmark, onCl
   function handleExport(e) {
     e.stopPropagation()
     downloadICS([event], `incmty-${event.name.substring(0, 30).replace(/[^a-zA-Z0-9]/g, '-')}.ics`)
+  }
+
+  async function handleGoogleCal(e) {
+    e.stopPropagation()
+    try {
+      await gcal.addEvents([event])
+    } catch (err) {
+      alert(`Failed: ${err.message}`)
+    }
   }
 
   return (
@@ -69,15 +80,26 @@ export default function EventModal({ event, isBookmarked, onToggleBookmark, onCl
           <button className="btn" onClick={handleExport}>
             <i className="fa-solid fa-calendar-plus"></i> .ics
           </button>
-          <a
-            className="btn"
-            href={googleCalendarUrl(event)}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={e => e.stopPropagation()}
-          >
-            <i className="fa-brands fa-google"></i> Google Calendar
-          </a>
+          {gcal.isConfigured ? (
+            <button
+              className="btn btn-google"
+              onClick={handleGoogleCal}
+              disabled={gcal.status === 'loading'}
+            >
+              <i className="fa-brands fa-google"></i>
+              {gcal.status === 'loading' ? ' Adding...' : gcal.status === 'success' ? ' Added!' : ' Google Calendar'}
+            </button>
+          ) : (
+            <a
+              className="btn"
+              href={googleCalendarUrl(event)}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={e => e.stopPropagation()}
+            >
+              <i className="fa-brands fa-google"></i> Google Calendar
+            </a>
+          )}
         </div>
         <div
           className="modal-desc"

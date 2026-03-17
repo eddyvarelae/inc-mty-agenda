@@ -85,6 +85,9 @@ a:hover { text-decoration: underline; }
 .btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 .btn-primary:hover { opacity: 0.9; }
 .btn-sm { padding: 0.35rem 0.7rem; font-size: 0.8rem; }
+.btn-google { background: #4285f4; border-color: #4285f4; color: #fff; }
+.btn-google:hover { background: #3367d6; border-color: #3367d6; }
+.btn-google:disabled { opacity: 0.7; cursor: wait; }
 
 /* Search */
 .search-box {
