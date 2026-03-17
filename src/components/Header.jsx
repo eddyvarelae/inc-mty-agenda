@@ -35,14 +35,19 @@ export default function Header({ data, search, onSearchChange, bookmarks, bookma
           <button
             className={`btn ${bookmarkOnly ? 'btn-primary' : ''}`}
             onClick={onToggleBookmarkOnly}
+            title="My Events"
           >
-            <i className="fa-solid fa-star"></i> My Events <span className="bookmark-count">{bookmarkCount}</span>
+            <i className="fa-solid fa-star"></i>
+            <span className="btn-label">My Events</span>
+            <span className="bookmark-count">{bookmarkCount}</span>
           </button>
-          <button className="btn btn-primary" onClick={exportAll}>
-            <i className="fa-solid fa-calendar-days"></i> All Events .ics
+          <button className="btn btn-primary" onClick={exportAll} title="Download all events as .ics">
+            <i className="fa-solid fa-calendar-days"></i>
+            <span className="btn-label">All .ics</span>
           </button>
-          <button className="btn btn-primary" onClick={exportBookmarked}>
-            <i className="fa-solid fa-file-export"></i> Export My Events
+          <button className="btn btn-primary" onClick={exportBookmarked} title="Export starred events">
+            <i className="fa-solid fa-file-export"></i>
+            <span className="btn-label">Export</span>
           </button>
         </div>
       </div>

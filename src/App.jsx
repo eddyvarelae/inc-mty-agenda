@@ -102,6 +102,7 @@ function App() {
           onFilterChange={handleFilterChange}
           onClear={clearFilters}
           open={sidebarOpen}
+          onClose={() => setSidebarOpen(false)}
         />
         <div className="content">
           <DayTabs
