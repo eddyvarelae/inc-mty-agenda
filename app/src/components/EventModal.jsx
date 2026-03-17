@@ -1,0 +1,93 @@
+import { useState } from 'react'
+import { fmtDayLabel, fmtTimeRange, stripHtml, truncate, downloadICS } from '../utils'
+
+function SpeakerCard({ speaker }) {
+  const [expanded, setExpanded] = useState(false)
+  const bio = speaker.bio ? stripHtml(speaker.bio) : ''
+  const hasPicture = speaker.picture && !speaker.picture.includes('missing')
+
+  return (
+    <div className="speaker-card">
+      {hasPicture && <img src={speaker.picture} alt={speaker.name} loading="lazy" />}
+      <div className="speaker-info">
+        <div className="speaker-name">
+          {speaker.name}{' '}
+          {speaker.linkedin && (
+            <a href={speaker.linkedin} target="_blank" rel="noopener noreferrer" onClick={e => e.stopPropagation()}>
+              LinkedIn
+            </a>
+          )}
+        </div>
+        {speaker.position && <div className="speaker-position">{speaker.position}</div>}
+        {bio && (
+          <>
+            <div className={`speaker-bio ${expanded ? 'expanded' : ''}`}>
+              {expanded ? bio : truncate(bio, 300)}
+            </div>
+            {bio.length > 300 && (
+              <button className="bio-toggle" onClick={() => setExpanded(!expanded)}>
+                {expanded ? 'Show less' : 'Show more'}
+              </button>
+            )}
+          </>
+        )}
+      </div>
+    </div>
+  )
+}
+
+export default function EventModal({ event, isBookmarked, onToggleBookmark, onClose }) {
+  if (!event) return null
+
+  function handleOverlayClick(e) {
+    if (e.target === e.currentTarget) onClose()
+  }
+
+  function handleExport(e) {
+    e.stopPropagation()
+    downloadICS([event], `incmty-${event.name.substring(0, 30).replace(/[^a-zA-Z0-9]/g, '-')}.ics`)
+  }
+
+  return (
+    <div className="modal-overlay" onClick={handleOverlayClick}>
+      <div className="modal">
+        <button className="modal-close" onClick={onClose}>&times;</button>
+        <div className="modal-time">
+          {fmtDayLabel(event.start.substring(0, 10))} &middot; {fmtTimeRange(event.start, event.end)}
+        </div>
+        <div className="modal-title">{event.name}</div>
+        {event.location && (
+          <div className="modal-location">&#128205; {event.location}</div>
+        )}
+        <div className="modal-actions">
+          <button
+            className={`btn ${isBookmarked ? 'btn-primary' : ''}`}
+            onClick={(e) => { e.stopPropagation(); onToggleBookmark(event.id) }}
+          >
+            {isBookmarked ? '\u2605 Bookmarked' : '\u2606 Bookmark'}
+          </button>
+          <button className="btn" onClick={handleExport}>
+            &#128197; Add to Calendar
+          </button>
+        </div>
+        <div
+          className="modal-desc"
+          dangerouslySetInnerHTML={{ __html: event.description || '<em style="color:var(--text-dim)">No description available</em>' }}
+        />
+        {event.speakers.length > 0 && (
+          <div className="modal-speakers">
+            <h3>Speakers</h3>
+            {event.speakers.map(s => <SpeakerCard key={s.name} speaker={s} />)}
+          </div>
+        )}
+        {event.categories.length > 0 && (
+          <div style={{ marginTop: '1rem' }}>
+            <div className="event-tags">
+              {event.categories.map(c => <span key={c} className="tag">{c}</span>)}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}

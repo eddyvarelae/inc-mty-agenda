@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>incMTY 2026 - Agenda</title>
+<style>
+:root {
+  --bg: #0a0a0f;
+  --surface: #14141f;
+  --surface2: #1e1e2e;
+  --border: #2a2a3e;
+  --text: #e0e0f0;
+  --text-dim: #8888aa;
+  --accent: #6c5ce7;
+  --accent2: #00cec9;
+  --accent-glow: rgba(108, 92, 231, 0.3);
+  --danger: #fd79a8;
+  --success: #00b894;
+  --radius: 12px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+a { color: var(--accent2); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, var(--surface) 0%, #1a1a2e 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+.header-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.5px;
+}
+.logo small {
+  font-weight: 400;
+  font-size: 0.8rem;
+  -webkit-text-fill-color: var(--text-dim);
+  margin-left: 0.5rem;
+}
+.header-actions { display: flex; gap: 0.5rem; align-items: center; }
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.btn:hover { border-color: var(--accent); background: var(--accent-glow); }
+.btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn-primary:hover { opacity: 0.9; }
+.btn-sm { padding: 0.35rem 0.7rem; font-size: 0.8rem; }
+
+/* Search */
+.search-box {
+  position: relative;
+  flex: 1;
+  max-width: 400px;
+  min-width: 200px;
+}
+.search-box input {
+  width: 100%;
+  padding: 0.5rem 0.75rem 0.5rem 2.2rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.search-box input:focus { border-color: var(--accent); }
+.search-box::before {
+  content: "\1F50D";
+  position: absolute;
+  left: 0.65rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.85rem;
+  opacity: 0.5;
+}
+
+/* Layout */
+.main { max-width: 1400px; margin: 0 auto; display: flex; gap: 0; min-height: calc(100vh - 64px); }
+.sidebar {
+  width: 280px;
+  flex-shrink: 0;
+  border-right: 1px solid var(--border);
+  padding: 1rem;
+  overflow-y: auto;
+  max-height: calc(100vh - 64px);
+  position: sticky;
+  top: 64px;
+}
+.content { flex: 1; padding: 1rem 1.5rem; overflow-y: auto; }
+
+/* Filters */
+.filter-section { margin-bottom: 1.25rem; }
+.filter-title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-dim);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.filter-chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.chip {
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-dim);
+  cursor: pointer;
+  font-size: 0.75rem;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.chip:hover { border-color: var(--accent); color: var(--text); }
+.chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip .count { opacity: 0.6; margin-left: 0.2rem; }
+
+/* Day tabs */
+.day-tabs {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0;
+  overflow-x: auto;
+}
+.day-tab {
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.day-tab:hover { color: var(--text); }
+.day-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+.day-tab .day-label { font-size: 0.7rem; display: block; opacity: 0.6; }
+
+/* Timeline */
+.timeline { position: relative; }
+.time-block { margin-bottom: 1.5rem; }
+.time-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent2);
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  position: sticky;
+  top: 64px;
+  background: var(--bg);
+  z-index: 10;
+  border-bottom: 1px solid var(--border);
+}
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 0.75rem;
+}
+
+/* Event card */
+.event-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+.event-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: var(--accent);
+  opacity: 0.6;
+}
+.event-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 20px var(--accent-glow);
+}
+.event-card.bookmarked::after {
+  content: "\2605";
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: #fdcb6e;
+  font-size: 1rem;
+}
+.event-time {
+  font-size: 0.75rem;
+  color: var(--accent2);
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.event-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  line-height: 1.3;
+}
+.event-location {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+.event-location::before { content: "\1F4CD"; font-size: 0.7rem; flex-shrink: 0; margin-top: 1px; }
+.event-speakers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+.speaker-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+.speaker-badge img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+.event-tags { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.5rem; }
+.tag {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  background: var(--surface2);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+}
+
+/* Modal */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 200;
+  backdrop-filter: blur(4px);
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  overflow-y: auto;
+}
+.modal-overlay.open { display: flex; }
+.modal {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  max-width: 700px;
+  width: 100%;
+  padding: 1.5rem;
+  position: relative;
+  margin-top: 2vh;
+}
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+.modal-time { color: var(--accent2); font-weight: 600; margin-bottom: 0.25rem; }
+.modal-title { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.5rem; line-height: 1.3; }
+.modal-location { color: var(--text-dim); font-size: 0.9rem; margin-bottom: 1rem; }
+.modal-desc { line-height: 1.6; margin-bottom: 1rem; color: var(--text); font-size: 0.9rem; }
+.modal-desc div { margin-bottom: 0.5rem; }
+.modal-actions { display: flex; gap: 0.5rem; margin-bottom: 1.25rem; flex-wrap: wrap; }
+.modal-speakers { margin-top: 1rem; }
+.modal-speakers h3 { font-size: 0.9rem; margin-bottom: 0.75rem; color: var(--text-dim); }
+.speaker-card {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: var(--surface2);
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--border);
+}
+.speaker-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.speaker-info { flex: 1; min-width: 0; }
+.speaker-name { font-weight: 600; font-size: 0.9rem; }
+.speaker-position { font-size: 0.8rem; color: var(--text-dim); }
+.speaker-bio { font-size: 0.8rem; color: var(--text-dim); margin-top: 0.3rem; line-height: 1.4; }
+.speaker-bio.collapsed { max-height: 3.6em; overflow: hidden; }
+.bio-toggle { font-size: 0.75rem; color: var(--accent); cursor: pointer; margin-top: 0.2rem; }
+
+/* Stats bar */
+.stats-bar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  align-items: center;
+  flex-wrap: wrap;
+}
+.stat { display: flex; align-items: center; gap: 0.3rem; }
+.stat strong { color: var(--text); }
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-dim);
+}
+.empty-state .icon { font-size: 2.5rem; margin-bottom: 0.5rem; }
+
+/* Mobile sidebar toggle */
+.sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 150;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 15px var(--accent-glow);
+}
+
+/* Bookmarks badge */
+.bookmark-count {
+  background: var(--accent);
+  color: #fff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 0.7rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    left: -300px;
+    top: 0;
+    height: 100vh;
+    z-index: 150;
+    background: var(--surface);
+    transition: left 0.3s;
+    padding-top: 5rem;
+  }
+  .sidebar.open { left: 0; }
+  .sidebar-toggle { display: flex; align-items: center; justify-content: center; }
+  .events-grid { grid-template-columns: 1fr; }
+  .header-inner { flex-wrap: wrap; }
+  .search-box { order: 3; flex-basis: 100%; max-width: 100%; }
+  .content { padding: 0.75rem; }
+  .modal { margin-top: 0; border-radius: 12px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <div class="logo">incMTY<small>Festival 2026 Agenda</small></div>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search events, speakers, topics...">
+    </div>
+    <div class="header-actions">
+      <button class="btn" id="bookmarkFilter" onclick="toggleBookmarkFilter()">
+        <span>&#9733;</span> My Events <span class="bookmark-count" id="bookmarkCount">0</span>
+      </button>
+      <button class="btn btn-primary" onclick="exportAllICS()">
+        <span>&#128197;</span> All Events .ics
+      </button>
+      <button class="btn btn-primary" onclick="exportBookmarkedICS()">
+        <span>&#11088;</span> Export My Events
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <aside class="sidebar" id="sidebar">
+    <div class="filter-section">
+      <div class="filter-title">Stage / Venue</div>
+      <div class="filter-chips" id="stageFilters"></div>
+    </div>
+    <div class="filter-section">
+      <div class="filter-title">Topic</div>
+      <div class="filter-chips" id="tematicaFilters"></div>
+    </div>
+    <div class="filter-section">
+      <div class="filter-title">Track</div>
+      <div class="filter-chips" id="pilarFilters"></div>
+    </div>
+    <div class="filter-section">
+      <div class="filter-title">Audience</div>
+      <div class="filter-chips" id="perfilFilters"></div>
+    </div>
+    <div style="margin-top: 1rem;">
+      <button class="btn btn-sm" onclick="clearFilters()" style="width:100%">Clear all filters</button>
+    </div>
+  </aside>
+
+  <div class="content">
+    <div class="day-tabs" id="dayTabs"></div>
+    <div class="stats-bar" id="statsBar"></div>
+    <div class="timeline" id="timeline"></div>
+  </div>
+</div>
+
+<button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()">&#9776;</button>
+
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal" id="modal"></div>
+</div>
+
+<script>
+let DATA = null;
+let state = {
+  activeDay: null,
+  search: '',
+  filters: { stage: null, tematica: null, pilar: null, perfil: null },
+  bookmarkOnly: false,
+  bookmarks: JSON.parse(localStorage.getItem('incmty-bookmarks') || '{}'),
+};
+
+function saveBookmarks() {
+  localStorage.setItem('incmty-bookmarks', JSON.stringify(state.bookmarks));
+  updateBookmarkCount();
+}
+
+function updateBookmarkCount() {
+  document.getElementById('bookmarkCount').textContent = Object.keys(state.bookmarks).length;
+}
+
+function toggleBookmark(id) {
+  if (state.bookmarks[id]) delete state.bookmarks[id];
+  else state.bookmarks[id] = true;
+  saveBookmarks();
+  render();
+}
+
+function toggleBookmarkFilter() {
+  state.bookmarkOnly = !state.bookmarkOnly;
+  document.getElementById('bookmarkFilter').classList.toggle('btn-primary', state.bookmarkOnly);
+  render();
+}
+
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+}
+
+// Time formatting
+function fmtTime(iso) {
+  const d = new Date(iso);
+  // Convert UTC to Monterrey time (UTC-6 CST)
+  const mty = new Date(d.getTime() - 6 * 60 * 60 * 1000);
+  const h = mty.getUTCHours();
+  const m = mty.getUTCMinutes();
+  const ampm = h >= 12 ? 'PM' : 'AM';
+  const h12 = h % 12 || 12;
+  return `${h12}:${m.toString().padStart(2, '0')} ${ampm}`;
+}
+
+function fmtTimeRange(start, end) {
+  return `${fmtTime(start)} - ${fmtTime(end)}`;
+}
+
+function timeSlotKey(iso) {
+  return fmtTime(iso);
+}
+
+function fmtDayLabel(dateStr) {
+  const d = new Date(dateStr + 'T12:00:00');
+  const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  return `${days[d.getDay()]} ${months[d.getMonth()]} ${d.getDate()}`;
+}
+
+function stripHtml(html) {
+  const tmp = document.createElement('div');
+  tmp.innerHTML = html || '';
+  return tmp.textContent || '';
+}
+
+function truncate(str, len) {
+  if (!str || str.length <= len) return str || '';
+  return str.substring(0, len) + '...';
+}
+
+// ICS generation
+function makeICS(events) {
+  let ics = `BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//incMTY Agenda//EN\r\nCALSCALE:GREGORIAN\r\nMETHOD:PUBLISH\r\nX-WR-CALNAME:incMTY 2026\r\nX-WR-TIMEZONE:America/Monterrey\r\n`;
+  for (const ev of events) {
+    const start = ev.start.replace(/[-:]/g, '').replace('.000Z', 'Z');
+    const end = ev.end.replace(/[-:]/g, '').replace('.000Z', 'Z');
+    const desc = stripHtml(ev.description).replace(/\n/g, '\\n');
+    const speakers = ev.speakers.map(s => s.name).join(', ');
+    const summary = ev.name.replace(/,/g, '\\,');
+    const loc = (ev.location || '').replace(/,/g, '\\,');
+    ics += `BEGIN:VEVENT\r\nUID:${ev.guid || ev.id}@incmty2026\r\nDTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').replace('.000Z', 'Z').split('.')[0]}Z\r\nDTSTART:${start}\r\nDTEND:${end}\r\nSUMMARY:${summary}\r\nDESCRIPTION:${truncate(desc, 500)}${speakers ? '\\nSpeakers: ' + speakers : ''}\r\nLOCATION:${loc}\r\nEND:VEVENT\r\n`;
+  }
+  ics += 'END:VCALENDAR\r\n';
+  return ics;
+}
+
+function downloadICS(events, filename) {
+  const ics = makeICS(events);
+  const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function exportSingleICS(id) {
+  const ev = DATA.events.find(e => e.id === id);
+  if (ev) downloadICS([ev], `incmty-${ev.name.substring(0, 30).replace(/[^a-zA-Z0-9]/g, '-')}.ics`);
+}
+
+function exportAllICS() {
+  downloadICS(DATA.events, 'incmty-2026-all-events.ics');
+}
+
+function exportBookmarkedICS() {
+  const bookmarked = DATA.events.filter(e => state.bookmarks[e.id]);
+  if (bookmarked.length === 0) {
+    alert('No events bookmarked yet! Click the star on events to add them to your calendar.');
+    return;
+  }
+  downloadICS(bookmarked, 'incmty-2026-my-agenda.ics');
+}
+
+// Filtering
+function getFilteredEvents() {
+  let events = DATA.events;
+
+  if (state.activeDay) {
+    events = events.filter(e => e.start.startsWith(state.activeDay));
+  }
+  if (state.bookmarkOnly) {
+    events = events.filter(e => state.bookmarks[e.id]);
+  }
+  if (state.filters.stage) {
+    events = events.filter(e => e.stage === state.filters.stage);
+  }
+  if (state.filters.tematica) {
+    events = events.filter(e => e.tematica === state.filters.tematica);
+  }
+  if (state.filters.pilar) {
+    events = events.filter(e => e.pilar === state.filters.pilar);
+  }
+  if (state.filters.perfil) {
+    events = events.filter(e => e.perfil === state.filters.perfil);
+  }
+  if (state.search) {
+    const q = state.search.toLowerCase();
+    events = events.filter(e =>
+      e.name.toLowerCase().includes(q) ||
+      stripHtml(e.description).toLowerCase().includes(q) ||
+      e.location.toLowerCase().includes(q) ||
+      e.speakers.some(s => s.name.toLowerCase().includes(q) || (s.position || '').toLowerCase().includes(q))
+    );
+  }
+  return events;
+}
+
+function setFilter(type, value) {
+  state.filters[type] = state.filters[type] === value ? null : value;
+  render();
+}
+
+function clearFilters() {
+  state.filters = { stage: null, tematica: null, pilar: null, perfil: null };
+  state.search = '';
+  state.bookmarkOnly = false;
+  document.getElementById('searchInput').value = '';
+  document.getElementById('bookmarkFilter').classList.remove('btn-primary');
+  render();
+}
+
+// Rendering
+function renderFilters() {
+  const renderChips = (containerId, items, filterType) => {
+    const el = document.getElementById(containerId);
+    // Count events per filter value for the current day
+    const dayEvents = state.activeDay
+      ? DATA.events.filter(e => e.start.startsWith(state.activeDay))
+      : DATA.events;
+
+    el.innerHTML = items.map(item => {
+      const count = dayEvents.filter(e => e[filterType] === item).length;
+      const active = state.filters[filterType] === item ? 'active' : '';
+      const label = item.length > 40 ? item.substring(0, 37) + '...' : item;
+      return `<div class="chip ${active}" onclick="setFilter('${filterType}','${item.replace(/'/g, "\\'")}')" title="${item}">${label}<span class="count">${count}</span></div>`;
+    }).join('');
+  };
+
+  renderChips('stageFilters', DATA.filters.stages, 'stage');
+  renderChips('tematicaFilters', DATA.filters.tematicas, 'tematica');
+  renderChips('pilarFilters', DATA.filters.pilares, 'pilar');
+  renderChips('perfilFilters', DATA.filters.perfiles, 'perfil');
+}
+
+function renderDayTabs() {
+  const tabs = document.getElementById('dayTabs');
+  const allTab = `<div class="day-tab ${!state.activeDay ? 'active' : ''}" onclick="state.activeDay=null;render()">All Days</div>`;
+  const dayTabs = DATA.dates.map(d => {
+    const active = state.activeDay === d ? 'active' : '';
+    const count = DATA.events.filter(e => e.start.startsWith(d)).length;
+    return `<div class="day-tab ${active}" onclick="state.activeDay='${d}';render()">
+      <span class="day-label">${fmtDayLabel(d)}</span>
+      ${d.substring(8)} Mar <span class="count" style="opacity:0.5;font-size:0.75rem">(${count})</span>
+    </div>`;
+  }).join('');
+  tabs.innerHTML = allTab + dayTabs;
+}
+
+function renderTimeline() {
+  const events = getFilteredEvents();
+  const timeline = document.getElementById('timeline');
+
+  // Stats
+  const statsBar = document.getElementById('statsBar');
+  const speakerCount = new Set(events.flatMap(e => e.speakers.map(s => s.name))).size;
+  statsBar.innerHTML = `
+    <div class="stat"><strong>${events.length}</strong> events</div>
+    <div class="stat"><strong>${speakerCount}</strong> speakers</div>
+    ${Object.values(state.filters).some(v => v) ? '<div class="stat" style="color:var(--accent)">Filtered</div>' : ''}
+  `;
+
+  if (events.length === 0) {
+    timeline.innerHTML = `<div class="empty-state"><div class="icon">&#128204;</div><p>No events match your filters</p></div>`;
+    return;
+  }
+
+  // Group by time slot
+  const grouped = new Map();
+  for (const ev of events) {
+    const key = ev.start;
+    if (!grouped.has(key)) grouped.set(key, []);
+    grouped.get(key).push(ev);
+  }
+
+  let html = '';
+  for (const [time, evs] of grouped) {
+    // Show date label if showing all days
+    const dateLabel = !state.activeDay ? `<span style="opacity:0.5;margin-right:0.5rem">${fmtDayLabel(time.substring(0, 10))}</span>` : '';
+    html += `<div class="time-block">
+      <div class="time-label">${dateLabel}${fmtTime(time)}</div>
+      <div class="events-grid">
+        ${evs.map(ev => renderEventCard(ev)).join('')}
+      </div>
+    </div>`;
+  }
+  timeline.innerHTML = html;
+}
+
+function renderEventCard(ev) {
+  const bookmarked = state.bookmarks[ev.id] ? 'bookmarked' : '';
+  const speakers = ev.speakers.slice(0, 3).map(s => {
+    const img = s.picture && !s.picture.includes('missing')
+      ? `<img src="${s.picture}" alt="${s.name}" loading="lazy" onerror="this.style.display='none'">`
+      : '';
+    return `<span class="speaker-badge">${img}${s.name}</span>`;
+  }).join('');
+  const moreSpeakers = ev.speakers.length > 3 ? `<span class="speaker-badge">+${ev.speakers.length - 3} more</span>` : '';
+
+  const tags = [];
+  if (ev.tematica) tags.push(ev.tematica);
+  if (ev.perfil) tags.push(ev.perfil);
+
+  return `<div class="event-card ${bookmarked}" onclick="openModal('${ev.id}')">
+    <div class="event-time">${fmtTimeRange(ev.start, ev.end)}</div>
+    <div class="event-title">${ev.name}</div>
+    ${ev.location ? `<div class="event-location">${ev.location}</div>` : ''}
+    ${speakers ? `<div class="event-speakers">${speakers}${moreSpeakers}</div>` : ''}
+    ${tags.length ? `<div class="event-tags">${tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>` : ''}
+  </div>`;
+}
+
+function openModal(id) {
+  const ev = DATA.events.find(e => e.id === id);
+  if (!ev) return;
+
+  const isBookmarked = state.bookmarks[id];
+  const modal = document.getElementById('modal');
+
+  const speakersHtml = ev.speakers.length ? `
+    <div class="modal-speakers">
+      <h3>Speakers</h3>
+      ${ev.speakers.map(s => {
+        const img = s.picture && !s.picture.includes('missing')
+          ? `<img src="${s.picture}" alt="${s.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><rect fill=%22%231e1e2e%22 width=%2240%22 height=%2240%22/><text x=%2220%22 y=%2225%22 text-anchor=%22middle%22 fill=%22%238888aa%22 font-size=%2216%22>${s.name.charAt(0)}</text></svg>'">`
+          : '';
+        const bio = s.bio ? stripHtml(s.bio) : '';
+        const linkedin = s.linkedin ? `<a href="${s.linkedin}" target="_blank" rel="noopener">LinkedIn</a>` : '';
+        return `<div class="speaker-card">
+          ${img}
+          <div class="speaker-info">
+            <div class="speaker-name">${s.name} ${linkedin}</div>
+            <div class="speaker-position">${s.position || ''}</div>
+            ${bio ? `<div class="speaker-bio collapsed" id="bio-${id}-${s.name.replace(/\s/g, '')}">${truncate(bio, 300)}</div>` : ''}
+          </div>
+        </div>`;
+      }).join('')}
+    </div>
+  ` : '';
+
+  const tagsHtml = ev.categories.length ? `
+    <div style="margin-top:1rem">
+      <div class="event-tags">${ev.categories.map(c => `<span class="tag">${c}</span>`).join('')}</div>
+    </div>
+  ` : '';
+
+  modal.innerHTML = `
+    <button class="modal-close" onclick="closeModal(event, true)">&times;</button>
+    <div class="modal-time">${fmtDayLabel(ev.start.substring(0, 10))} &middot; ${fmtTimeRange(ev.start, ev.end)}</div>
+    <div class="modal-title">${ev.name}</div>
+    ${ev.location ? `<div class="modal-location">&#128205; ${ev.location}</div>` : ''}
+    <div class="modal-actions">
+      <button class="btn ${isBookmarked ? 'btn-primary' : ''}" onclick="event.stopPropagation();toggleBookmark('${id}');openModal('${id}')">
+        ${isBookmarked ? '&#9733; Bookmarked' : '&#9734; Bookmark'}
+      </button>
+      <button class="btn" onclick="event.stopPropagation();exportSingleICS('${id}')">
+        &#128197; Add to Calendar
+      </button>
+    </div>
+    <div class="modal-desc">${ev.description || '<em style="color:var(--text-dim)">No description available</em>'}</div>
+    ${speakersHtml}
+    ${tagsHtml}
+  `;
+
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal(event, force) {
+  if (force || event.target === document.getElementById('modalOverlay')) {
+    document.getElementById('modalOverlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+}
+
+function render() {
+  renderDayTabs();
+  renderFilters();
+  renderTimeline();
+  updateBookmarkCount();
+}
+
+// Search debounce
+let searchTimer;
+document.getElementById('searchInput').addEventListener('input', (e) => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => {
+    state.search = e.target.value.trim();
+    render();
+  }, 200);
+});
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeModal(e, true);
+  if (e.key === '/' && !e.ctrlKey && !e.metaKey && document.activeElement.tagName !== 'INPUT') {
+    e.preventDefault();
+    document.getElementById('searchInput').focus();
+  }
+});
+
+// Load data and init
+fetch('data.json')
+  .then(r => r.json())
+  .then(data => {
+    DATA = data;
+    // Default to today if it's an event day, otherwise first day
+    const today = new Date().toISOString().substring(0, 10);
+    state.activeDay = data.dates.includes(today) ? today : data.dates[0];
+    render();
+  })
+  .catch(() => {
+    document.getElementById('timeline').innerHTML = '<div class="empty-state"><div class="icon">&#9888;&#65039;</div><p>Could not load data.json</p></div>';
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,1645 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//incMTY Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:incMTY 2026
+X-WR-TIMEZONE:America/Monterrey
+BEGIN:VEVENT
+UID:079dcc28-8e12-42df-b1fe-46f8a8904a8c@incmty2026
+DTSTART:20260317T140000Z
+DTEND:20260317T170000Z
+SUMMARY:CASA EXATEC: EXATEC Credential
+DESCRIPTION:EXATEC Exclusive: Discover a special surprise to obtain your new physical credential through an express process. Special benefit limited to 150 alumni.
+END:VEVENT
+BEGIN:VEVENT
+UID:7e9e38d8-cd0b-4c70-be0c-9943dde3cd80@incmty2026
+DTSTART:20260317T160000Z
+DTEND:20260317T164000Z
+SUMMARY:The Inside Scoop on Capital and Execution
+DESCRIPTION:A 40-minute conference where Maca Riva clearly\, interestingly\, and in detail explains the current AI ecosystem\, the economic challenges of the main companies involved\, and helps the audience reflect on their role and how to take advantage of the boom in this industry.\n\nSpeakers: Adriana Tortajada\, Iván Montoya\, Maca Riva\, Ryan Micheletti
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:b0433cd3-46f8-461d-9a21-c4d8318a0d52@incmty2026
+DTSTART:20260317T160000Z
+DTEND:20260317T170000Z
+SUMMARY:Virtual Reality in Industrial Engineering. School of Engineering and Sciences (EIC)
+DESCRIPTION:Demonstration of virtual reality and digital twins applied to industrial engineering processes.\n\nSpeakers: Escuela de ingeniería y Ciencias  (EIC)
+LOCATION:TEC | Aulas 7 - 4º piso
+END:VEVENT
+BEGIN:VEVENT
+UID:dbe0bd24-50d7-4117-aa11-5eda3be7f1ab@incmty2026
+DTSTART:20260317T160000Z
+DTEND:20260317T180000Z
+SUMMARY:Tour of the Materials Characterization Laboratory – School of Engineering and Sciences (EIC)
+DESCRIPTION:Overview of the laboratory’s capabilities and academic equipment for training\, research\, and the development of student projects.\n\nSpeakers: Escuela de ingeniería y Ciencias  (EIC)
+LOCATION:TEC | Aulas 1\, 2º Piso\, Salón 202
+END:VEVENT
+BEGIN:VEVENT
+UID:64ba8cbe-7c6d-4df0-9354-17881a67d673@incmty2026
+DTSTART:20260317T163000Z
+DTEND:20260317T171000Z
+SUMMARY:Attract and retain
+DESCRIPTION:Exploring strategies to attract talent and companies to the Monterrey ecosystem\, while keeping in mind the importance of retaining and empowering local talent and entrepreneurship as the foundation of a solid and sustainable innovation district.\n\nSpeakers: Juan Bringas\, Pamela Cedeño\, Jessy Fonseca\, Aquino Eloah
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:aee56dd0-6010-4f8c-a23a-ab58e4535cac@incmty2026
+DTSTART:20260317T163000Z
+DTEND:20260317T171000Z
+SUMMARY:Foreign Investment and Talent Mobility
+DESCRIPTION:It is a conversation between Fernando Mayer\, Director General of Foreign Investment at the Ministry of Economy\, and César Becker\, an expert on migration and talent mobility issues. They will analyze Mexico's strengths\, touching on topics such as official FDI figures\, Mexico's negotiation capabilities\, and what corporate migration means in promoting investment in Mexico.\n\nSpeakers: César Becker\, Fernando Mayer
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:5966b762-518b-474a-9a2a-66aa1d8e9bd2@incmty2026
+DTSTART:20260317T163000Z
+DTEND:20260317T171000Z
+SUMMARY:The New Frontier of Investment
+DESCRIPTION:This panel brings together national leaders to explore mobilizing capital for STEM startups capable of transforming industries\, redefining markets\, and monetizing innovation. Beyond traditional financing\, we will explore mechanisms for building robust investment ecosystems. During the panel\, we will discuss how to strengthen trust between researchers and investors and how to design regulatory frameworks and financial instruments that drive the transition to a knowledge economy.\n\nSpeakers: César Aspiros\, Pedro Lopez Sela\, Rogelio Marín\, Alejandra Vazquez
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:5d200bcb-475f-4916-b90d-24e3fec97dbc@incmty2026
+DTSTART:20260317T163000Z
+DTEND:20260317T190000Z
+SUMMARY:Guided Tour of the Prototyping Workshop
+DESCRIPTION:Tour of the areas where students build prototypes and experiment with different materials.\n\nSpeakers: Escuela de Arquitectura\, Arte y Diseño (EAAD)
+LOCATION:TEC | Aulas 4 - 129-1
+END:VEVENT
+BEGIN:VEVENT
+UID:63fd88d6-0c8c-4747-8d0d-0bd6446bc0bb@incmty2026
+DTSTART:20260317T165000Z
+DTEND:20260317T171000Z
+SUMMARY:How to create new businesses without disrupting operations
+DESCRIPTION:Good ideas don't fail: they get bogged down in the execution.The problem isn't innovation\, it's the method. This talk introduces VentureMode™\, an entrepreneurial way to run new businesses without letting the system dilute them.\n\nSpeakers: Camilo Manjarrés
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:0fc2053a-bf4c-4760-b669-5a44a525ba8c@incmty2026
+DTSTART:20260317T170000Z
+DTEND:20260317T174000Z
+SUMMARY:The Path to Superintelligence.
+DESCRIPTION:Meta Conference on AI and Technology.\n\nSpeakers: Marco Casarin
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:ecf04b86-2ea4-4106-abe5-cb1751689bf2@incmty2026
+DTSTART:20260317T170000Z
+DTEND:20260317T200000Z
+SUMMARY:Roundtable Setting ground rules
+DESCRIPTION:This exclusive roundtable brings together CEOs and Tech VPs to define the fundamental principles of strategic collaboration. In an era of rapid AI integration\, we will establish the governance\, ethical\, and financial rules that allow innovation to scale safely. Join us to align the vision of the boardroom with the reality of the technology stack
+LOCATION:TEC | (EXPEDITION FEMSA - BUSINESS INTELIGENCE)
+END:VEVENT
+BEGIN:VEVENT
+UID:8e2d99a2-3a04-4602-946a-596553bdb7e8@incmty2026
+DTSTART:20260317T170000Z
+DTEND:20260317T180000Z
+SUMMARY:CASA EXATEC: EXATEC Networking — “EXATEC Monterrey Business Club”
+DESCRIPTION:EXATEC Exclusive. Interact with members of the EXATEC Business Club Monterrey\, discover its benefits\, and invite alumni to expand their networking circles and strengthen their professional development.\n\nSpeakers: Arturo Ruiz
+LOCATION:TEC | CASA EXATEC | (TEC LOUNGE)
+END:VEVENT
+BEGIN:VEVENT
+UID:5f0075c5-80e0-47ff-9232-f3c3b01ac55f@incmty2026
+DTSTART:20260317T170000Z
+DTEND:20260317T210000Z
+SUMMARY:CASA EXATEC: Maximize Your EXATEC Benefits
+DESCRIPTION:EXATEC Exclusive: A personalized assistance space to learn about our network of partnerships. Resolve specific questions and discover how to make the most of the discounts in your daily life.\n\nSpeakers: CASA EXATEC
+LOCATION:TEC | CASA EXATEC | (TEC LOUNGE)
+END:VEVENT
+BEGIN:VEVENT
+UID:3a4663e8-576f-448f-af53-eacf99bce46e@incmty2026
+DTSTART:20260317T170000Z
+DTEND:20260317T173000Z
+SUMMARY:Navigating the Campus with VanTec
+DESCRIPTION:Discover the campus through a ride in Tecnológico de Monterrey’s autonomous vehicle.Maximum capacity per ride: 6 peopleRoute: From the Campus Library to the final stop at Expedition FEMSA. 🚗
+LOCATION:TEC | Biblioteca
+END:VEVENT
+BEGIN:VEVENT
+UID:be6e9277-d7a5-443c-9afe-6f43d31ba1dd@incmty2026
+DTSTART:20260317T172000Z
+DTEND:20260317T174000Z
+SUMMARY:The Stanford Playbook: AI-Driven Operational Efficiency to Win
+DESCRIPTION:Why companies without Artificial Intelligence in key processes will fail and how to prevent it. We'll see use cases that are already generating economic value from day one\; and a plan to react to the biggest technological disruption since the Industrial Revolution. It's not just a conference\; it's also a live demonstration of an AI interview for a recruitment use case\, and how it translates into economic value for companies.\n\nSpeakers: Claudio Guardado
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:da82c583-d97a-46b5-a145-82dfaf071fb6@incmty2026
+DTSTART:20260317T172000Z
+DTEND:20260317T180000Z
+SUMMARY:Purposeful leadership: training that transforms realities
+DESCRIPTION:The objective of this space is to explore how education is a key enabler of humanistic leadership and personal development\, and how these elements translate into social\, business and community impact\, aligned with the spirit of the Eugenio Garza Sada Award.\n\nSpeakers: Geraldina Silveyra León\, Uriel Vega Rodríguez
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:008da0e2-cbdd-4f0b-845c-01885433ef34@incmty2026
+DTSTART:20260317T172000Z
+DTEND:20260317T180000Z
+SUMMARY:How an Advisory Board Guides Companies to Invest in\, Implement\, and Scale with Artificial Intelligence
+DESCRIPTION:In this session\, Ibar and Marcelo (co-founders of elery) and Marco and Sandra\, the company's advisors\, will share their experience on how the guidance and support of an advisory board boosted their business development to scale with AI\n\nSpeakers: Ibar Langle\, Marcelo Cruz\, Sandra López
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:5c931a2e-3b5b-45ff-98dd-44e9bb39f56c@incmty2026
+DTSTART:20260317T172000Z
+DTEND:20260317T180000Z
+SUMMARY:Innovation Trends: Texas\, Silicon Valley\, and Nuevo León
+DESCRIPTION:This panel will explore how leading innovation hubs—Silicon Valley\, Texas\, and Nuevo León—are shaping the future of AI\, entrepreneurship\, and cross-border investment. Speakers will discuss why Silicon Valley remains the global “North Star” for capital and networks\, the rapid rise of the Austin–Houston–Dallas corridor as a gateway for Latino founders entering the U.S. market\, and Nuevo León’s transformation from an industrial powerhouse into a growing innovation hub for AI and emerging technologies. The conversation will also highlight investment opportunities across borders\, including Silicon Valley capital in Latin America\, Texas as a bridge for startups expanding to the U.S.\, and Nuevo León’s strategic role in the nearshoring momentum under USMCA. The panel will conclude with a 2030 vision for how Monterrey\, Austin\, and San Jose could operate as an integrated innovation corridor—and key advice for founders seeking to raise capital across these regions.\n\nSpeakers: Brenda Bravo\, Jesse Martinez\, Carlos Serna Gamez
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:227f1946-1e48-4aac-8b54-dc9748f595bb@incmty2026
+DTSTART:20260317T173000Z
+DTEND:20260317T180000Z
+SUMMARY:Meet & Greet Maca Rivera
+DESCRIPTION:“It’s time to take the ‘gossip’ to the next level! Join us in this exclusive space with Macarena Riva\, the mind behind Chisme Corporativo. In this Meet & Greet\, we’re setting aside the PowerPoints and formalities to dive into an honest conversation about the realities of entrepreneurship\, raising capital\, and scaling businesses in Mexico.If you’re a fan of the podcast\, this is your chance to meet ‘Maca’ in person\, ask those questions that don’t fit in a LinkedIn comment\, and share your own corporate-life anecdotes.”\n\nSpeakers: Maca Riva
+LOCATION:TEC | (EXPEDITION FEMSA - VENTURE CAFE)
+END:VEVENT
+BEGIN:VEVENT
+UID:ea5f836b-33ff-45cc-8c0b-83144e49cb59@incmty2026
+DTSTART:20260317T173000Z
+DTEND:20260317T190000Z
+SUMMARY:Bakery Product Reformulation Workshop: Egg Substitution
+DESCRIPTION:Content: Techniques and alternatives to eliminate eggs in bakery recipes while maintaining quality\, flavor\, and texture\; with a focus on allergies\, vegan options\, and cost reduction.\n\nSpeakers: Escuela de ingeniería y Ciencias  (EIC)
+LOCATION:TEC | Centro de Biotecnología (3er piso) | Laboratorio de Cereales
+END:VEVENT
+BEGIN:VEVENT
+UID:2b353262-8b40-4db0-8bd0-8db2212c0a17@incmty2026
+DTSTART:20260317T174000Z
+DTEND:20260317T181000Z
+SUMMARY:BACK TO PRESENCE
+DESCRIPTION:A bodily and sensory experience that allows you to release mental noise\, return to your body\, and remember what it feels like to simply BE AND BE PRESENT.From this state of presence and inner coherence\, clarity\, creativity\, and a more conscious\, human\, aligned\, and sustainable leadership naturally emerge.\n\nSpeakers: Gizehlle García
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:9e01b271-73dd-4115-ae08-d7de65764e25@incmty2026
+DTSTART:20260317T175000Z
+DTEND:20260317T181000Z
+SUMMARY:AI data centers in Mexico
+DESCRIPTION:AI and Infrastructure\n\nSpeakers: Ciro Gonzalez
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:5de08859-6fe3-4edf-93a0-1158a4201716@incmty2026
+DTSTART:20260317T180000Z
+DTEND:20260320T184000Z
+SUMMARY:Influencer vs Manager: The Real Formula Behind a Successful Campaign
+DESCRIPTION:In the attention economy\, the success of a campaign with content creators does not depend solely on an influencer’s reach\, but on the strategy behind it. “Influencer vs. Manager: The Real Formula Behind a Successful Campaign” explores the dynamic between creative talent and the management that turns ideas into real results for brands.Through this conversation\, we examine how collaboration between influencers\, managers\, and brands enables the creation of campaigns that are more authentic\, strategic\, and measurable. From talent negotiation and positioning to execution and impact measurement\, the talk reveals what happens behind the scenes of digital campaigns that truly connect with audiences and generate value for companies.\n\nSpeakers: Gonzalo De la Torre\, Vianney Rodriguez\, Fer Elizondo\, Diego Rule
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:a2003eb3-ef9b-4d8e-a617-7f20a15cc20b@incmty2026
+DTSTART:20260317T181000Z
+DTEND:20260317T183000Z
+SUMMARY:Optimizing Real Estate Project Creation with Disruptive Technology
+DESCRIPTION:Conference on the impact of technology on the built environment (cities) and how technology allows for improvements in the processes of creating new real estate projects\n\nSpeakers: Ruben Frattini
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:2c5838a6-9bd5-4211-8ad5-3df509156af0@incmty2026
+DTSTART:20260317T181000Z
+DTEND:20260317T185000Z
+SUMMARY:Scaling AI enterprise pilots with startups
+DESCRIPTION:This panel\, part of the INC Monterrey agenda\, will explore how artificial intelligence is being developed\, adopted\, and scaled from two complementary perspectives: that of a corporation (Karim Touma-DeAcero) and that of a startup.Moderated by Mauricio Muñoz\, the discussion will focus on the role AI plays within each organization\, the real challenges in its implementation\, and the collaboration opportunities that arise from building an AI innovation cluster.Based on practical experiences\, the panel will offer a balanced view of strategies\, execution\, and impact\, highlighting how the convergence between corporations and startups strengthens the artificial intelligence ecosystem.\n\nSpeakers: Alfonso de los Ríos\, Karim Touma\, Mauricio Muñoz Hernández
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:6e12e3d9-bd0f-48a0-b110-c2130352cc6e@incmty2026
+DTSTART:20260317T181000Z
+DTEND:20260317T183000Z
+SUMMARY:Cybersecurity for Startups: Protect to Grow
+DESCRIPTION:DESCRIPTION:Startups often prioritize speed and growth\, leaving security in the background. However\, digital risks can compromise everything from customer trust to business continuity.OBJECTIVE:To provide entrepreneurs and startup leaders with a clear understanding of the most relevant cybersecurity risks in early stages\, along with practical recommendations to integrate security from the start as an enabler of growth\, trust\, and operational continuity.\n\nSpeakers: Elí Emmanuel Ruíz\, Ernesto Uriel Rey Guillen\, Alberto Isaías Barrón Loredo
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:ca4dc03b-422a-43c1-a320-32bcaa992c05@incmty2026
+DTSTART:20260317T182000Z
+DTEND:20260317T184000Z
+SUMMARY:Legality and public policies
+DESCRIPTION:Learn about the CCE Director's perspective on legality and public policies in Mexico\n\nSpeakers: Jose Medina Mora Icaza
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:2b8ff6d0-27d3-4feb-818b-596bb42bf687@incmty2026
+DTSTART:20260317T183000Z
+DTEND:20260317T190000Z
+SUMMARY:Meditation practice. "Here and now: training attention"
+DESCRIPTION:This 25-minute in-person meditation practice\, based on the Healthy Minds program and developed by the Tecmilenio Institute of Purpose and Integral Wellbeing\, invites you to pause the daily rhythm and train mindfulness through guided breathing exercises and awareness of the present moment.\n\nSpeakers: Ana Belém García
+LOCATION:TEC |  | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:e63040f1-c0fa-4d32-a3f9-1e23612e50e5@incmty2026
+DTSTART:20260317T183000Z
+DTEND:20260317T190000Z
+SUMMARY:Navigating the Campus with VanTec
+DESCRIPTION:Discover the campus through a ride in Tecnológico de Monterrey’s autonomous vehicle.Maximum capacity per ride: 6 peopleRoute: From the Campus Library to the final stop at Expedition FEMSA. 🚗
+LOCATION:TEC | Biblioteca
+END:VEVENT
+BEGIN:VEVENT
+UID:084af65b-6511-46a1-be92-730b71255f06@incmty2026
+DTSTART:20260317T184000Z
+DTEND:20260317T192000Z
+SUMMARY:AI and the future of work
+DESCRIPTION:I talk about job trends\, what the future of work is\, and what role AI plays.\n\nSpeakers: Luis Felipe Peña Gaviria
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:f6b6c7ab-8a79-4e22-acd0-d7c8dbbcaf99@incmty2026
+DTSTART:20260317T184500Z
+DTEND:20260317T193000Z
+SUMMARY:CASA EXATEC "Connecting to Transform: The Value of the EXATEC Community"
+DESCRIPTION:Exclusive for EXATEC: A space to connect and strengthen the bonds of the EXATEC community.\n\nSpeakers: Zinia Padilla Rodríguez
+LOCATION:TEC | CASA EXATEC | (TEC LOUNGE)
+END:VEVENT
+BEGIN:VEVENT
+UID:0aa9f395-8ffa-4191-8ab6-081aabcaef49@incmty2026
+DTSTART:20260317T185000Z
+DTEND:20260317T191000Z
+SUMMARY:Life and Entrepreneurship
+DESCRIPTION:Through the lens of wellbeing science and positive psychology\, Rosalinda explores how resilience\, purpose\, and emotional management are not just 'soft skills\,' but strategic assets that determine the longevity of a founder and their team. Attendees will discover practical tools to align their business goals with their life projects\, understanding that a healthy entrepreneurial ecosystem begins with leaders who know how to integrate their wellbeing as the primary engine of their productivity and global vision.\n\nSpeakers: Rosalinda Ballesteros
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:152d815b-6e02-4bef-95a1-817e0ae3852d@incmty2026
+DTSTART:20260317T190000Z
+DTEND:20260317T193000Z
+SUMMARY: incMTY 2026 Inauguration: Opening of the Latin American Innovation Ecosystem
+DESCRIPTION:This official ceremony marks the formal beginning of the thirteenth edition of incMTY\, reinforcing Mexico’s commitment to technological innovation and high-impact entrepreneurship.In the presence of authorities from Tecnológico de Monterrey and the Government of Nuevo León\, as well as international delegations from Japan and the United States\, the traditional ribbon-cutting ceremony will take place. It is the moment when a vision for the future becomes a global collaboration agenda.\n\nSpeakers: Maricarmen Martínez\, Juan Pablo Murra\, Santos Guzmán López\, Betsabé Rocha\, Daniela Garza\, Kozo Honsei
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:2f824573-ea46-4a09-9ebf-83d9e5d05b7a@incmty2026
+DTSTART:20260317T190000Z
+DTEND:20260317T192000Z
+SUMMARY:Use and Impact of AI in Creative Media
+DESCRIPTION:Talk with Practical Cases on the topic.\n\nSpeakers: David Dávila
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:8a482a71-0620-45b2-b105-520007409598@incmty2026
+DTSTART:20260317T191000Z
+DTEND:20260317T214000Z
+SUMMARY:Japan–Mexico Bilateral Innovation & Trade Roundtable
+DESCRIPTION:Invitation-only eventTo convene a high-level dialogue among the Ambassador of Japan to Mexico\, leaders of the Japanese Chamber of Commerce and Industry of Mexico\, JICA\, JETRO\, Tecnológico de Monterrey\, and Japanese companies\, with the purpose of strengthening Japan–Mexico collaboration and exchanging perspectives on innovation\, investment\, and strategic partnerships.This roundtable will provide a space to explore opportunities for bilateral cooperation\, share insights on the evolving economic landscape\, and identify areas where institutions\, companies\, and academic partners may collaborate to foster long-term engagement between both countries.
+LOCATION:TEC | (EXPEDITION FEMSA - VENTURE CAFE)
+END:VEVENT
+BEGIN:VEVENT
+UID:ef0cc61f-d5b4-4c41-8465-3e099db59e18@incmty2026
+DTSTART:20260317T192000Z
+DTEND:20260317T194000Z
+SUMMARY:Beauty Boss & Rule Breaker: From motherhood to the organized chaos of a global brand.
+DESCRIPTION:An inspiring talk about the growth of the Ere Perez brand until it became international\, and how she managed to balance her role as a woman\, mother and entrepreneur\, sharing lessons learned and advice to motivate new female entrepreneurs.\n\nSpeakers: Ere Pérez
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:4e342f68-a643-47ec-8da8-d562efe3bc72@incmty2026
+DTSTART:20260317T192000Z
+DTEND:20260317T200000Z
+SUMMARY:Invisible tensions between AI and humanity: Are we ready to face them?
+DESCRIPTION:Innovation also generates tensions: between automation versus human judgment\, or efficiency versus meaning. In this space\, we will explore these frictions to make them visible\, because it is precisely where something feels uncomfortable that we must turn our attention\, explore\, and reflect upon in order to truly innovate with purpose.\n\nSpeakers: Ilana Blank\, Joss Hernandez
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:78c0cb37-2fc1-4613-a6b0-f87bb30f5910@incmty2026
+DTSTART:20260317T193000Z
+DTEND:20260317T195000Z
+SUMMARY:Japan and Mexico: Two Ways of Building Innovation
+DESCRIPTION:Fireside chat with alumni of the JICA program (“Enhancement of Startup Ecosystem”) discussing key learnings from Japan’s innovation ecosystem and how these insights can be applied in Mexico. The conversation will explore topics such as public policy\, venture capital\, and collaboration among academia\, government\, and the private sector to strengthen startups and foster global connections.\n\nSpeakers: Dulce Diaz\, Saulo Manuel Santana
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:68ef174d-b0c6-4c6b-ad85-24815bc0abde@incmty2026
+DTSTART:20260317T194000Z
+DTEND:20260317T202000Z
+SUMMARY:The Industrial Revolution in the Age of Artificial Intelligence
+DESCRIPTION:The next industrial revolution is being shaped at the intersection of artificial intelligence\, advanced engineering\, and digital transformation. In this keynote\, we will explore how organizations are redefining the way products are designed\, manufactured\, and operated through the convergence of AI\, Digital Twins\, and the Industrial Metaverse.As industries face increasing pressure to innovate faster and operate more efficiently\, digital technologies are enabling a new paradigm where the physical and digital worlds operate as one. By integrating artificial intelligence into engineering and manufacturing\, companies can simulate\, optimize\, and predict outcomes before anything is built.Through real examples of digital transformation\, this session will explore how the Digital Twin and the Industrial Metaverse are accelerating innovation\, enabling smarter decision-making\, and transforming how organizations bring ideas to life.\n\nSpeakers: Ricardo Rodriguez Sánchez
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:3f0f673a-11c5-45a5-b098-9f46a37b9eda@incmty2026
+DTSTART:20260317T200000Z
+DTEND:20260317T204000Z
+SUMMARY:Panel: Texas Innovation and Strategic Growth
+DESCRIPTION:Texas has emerged as one of the most dynamic innovation hubs in the world\, where energy\, AI\, entrepreneurship\, public policy\, and global trade converge. In this high-impact session\, leaders from government\, corporate innovation\, trade advocacy\, and global venture acceleration will explore how Texas is shaping the next chapter of US–Mexico collaboration.The conversation will highlight how startups\, corporations\, and policymakers can align around strategic growth\, nearshoring\, energy transition\, and emerging technologies to strengthen the economic corridor between both regions.\n\nSpeakers: John Cowen\, Luly Castillo\, Kevin Koym
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:d631e8ce-8dda-4c30-a936-3e1164c38666@incmty2026
+DTSTART:20260317T200000Z
+DTEND:20260317T204000Z
+SUMMARY:World Cup legacy in Monterrey
+DESCRIPTION:Panel on Monterrey's role in the 2026 FIFA World Cup\n\nSpeakers: Alejandro Hütt Valenzuela\, Maricarmen Martínez
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:385fa481-3b3f-4a50-8940-719a7d370d6b@incmty2026
+DTSTART:20260317T200000Z
+DTEND:20260317T203000Z
+SUMMARY:Navigating the Campus with VanTec
+DESCRIPTION:Discover the campus through a ride in Tecnológico de Monterrey’s autonomous vehicle.Maximum capacity per ride: 6 peopleRoute: From the Campus Library to the final stop at Expedition FEMSA. 🚗
+LOCATION:TEC | Biblioteca
+END:VEVENT
+BEGIN:VEVENT
+UID:ea5651c6-52a9-4f73-82dd-0db2468ad0e6@incmty2026
+DTSTART:20260317T202000Z
+DTEND:20260317T212000Z
+SUMMARY:1st Llama Spanish Workshop in PotencIA MX
+DESCRIPTION:Build your own AI arsenal in this free\, hands-on virtual workshop on Llama\, Meta's open language model (LLM). Learn to implement AI in your business without advanced technical knowledge\, a constant internet connection\, or monthly subscriptions. This initiative is part of the PotencIA MX Accelerator\, a Meta project in collaboration with Tecnológico de Monterrey through incMTY\, and with support from the Ministry of Economy and the Ministry of Science\, Humanities\, Technology and Innovation of the Federal Government. The workshop was created by Juan José Domínguez Ochoa\, EXATEC and founder of AK7 - Amplifik AI Inc.\n\nSpeakers: Juan José Domínguez Ochoa
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:cf4bd9d2-7c5b-49fe-aa4a-78be7a68d7c8@incmty2026
+DTSTART:20260317T202000Z
+DTEND:20260317T212000Z
+SUMMARY:The invisible cost of innovation: water\, data\, and conflict.
+DESCRIPTION:The expansion of artificial intelligence\, data centers\, and digital infrastructure has become a new source of tension between innovation\, territory\, and social legitimacy. In various parts of the United States\, strategic projects have been canceled or halted due to community\, environmental\, and political opposition. In Mexico\, recent cases show that the innovation ecosystem still underestimates the weight of the social environment and the perception of the use of critical resources such as water.This workshop proposes a frank conversation about why technological innovation cannot advance without social management\, strategic intelligence\, and early contextual analysis. Beyond pro-innovation rhetoric\, it will address the real cost—reputational\, political\, and economic—of ignoring the territory\, and how decisions not made in a timely manner are often made later\, under pressure and conflict.Session ObjectivesAnalyze why technologically viable projects fail due to social license deficits.Highlight the role of social management\, strategic intelligence\, and ESG (Environmental\, Social\, and Governance) as enablers—not obstacles—to innovation.Connecting innovation\, digital infrastructure\, and territorial governance in contexts of water stress and social pressure.Providing criteria for entrepreneurs\, investors\, and innovation leaders to anticipate non-technical risks before they lead to project cancellations.\n\nSpeakers: Ana Teresa Carrion Chavarria
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:d39673ac-4d7f-4403-96e2-1f978e737b98@incmty2026
+DTSTART:20260317T203000Z
+DTEND:20260317T211000Z
+SUMMARY:Starting a Business as a Couple
+DESCRIPTION:In this keynote address\, Gador Garza and Rodrigo Zubiría reveal the human and strategic side of building a business from scratch: difficult decisions\, reinventions\, and the resilience that transforms an idea into a legacy.\n\nSpeakers: Gador Garza\, Rodrigo Zubiría
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:31d014dd-88d0-4f50-ba5f-3ff61971f561@incmty2026
+DTSTART:20260317T203000Z
+DTEND:20260317T210000Z
+SUMMARY:Connection
+DESCRIPTION:This 25-minute in-person meditation practice\, based on the Healthy Minds program and developed by the Tecmilenio Institute of Purpose and Integral Wellbeing\, invites you to pause the daily rhythm and train mindfulness through guided breathing exercises and awareness of the present moment.\n\nSpeakers: Ariadna Romero
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:09770880-3214-4b52-8a78-7385dc8c3dfc@incmty2026
+DTSTART:20260317T203000Z
+DTEND:20260317T233000Z
+SUMMARY:Guided Tour of the Prototyping Workshop
+DESCRIPTION:Tour of the areas where students build prototypes and experiment with different materials.\n\nSpeakers: Escuela de Arquitectura\, Arte y Diseño (EAAD)
+LOCATION:TEC | Aulas 4 - 129-1
+END:VEVENT
+BEGIN:VEVENT
+UID:d1fc69f1-db10-479d-ba2b-8bc7684eff53@incmty2026
+DTSTART:20260317T203000Z
+DTEND:20260317T230000Z
+SUMMARY:Visit to the Sustainable Energy Lab\, Expedition FEMSA – School of Engineering and Sciences (EIC)
+DESCRIPTION:Presentation of the laboratory’s flagship projects in sustainable energy.\n\nSpeakers: Escuela de ingeniería y Ciencias  (EIC)
+LOCATION:TEC | EXPEDITION FEMSA - Piso 7
+END:VEVENT
+BEGIN:VEVENT
+UID:6326a12b-4481-4dcd-b0cc-b34e7dcdbfcd@incmty2026
+DTSTART:20260317T205000Z
+DTEND:20260317T213000Z
+SUMMARY:Panel: Investing in the AI Decade: Venture trends\, cross-border capital and the LatAm opportunity
+DESCRIPTION:Artificial intelligence is not just transforming startups\, it is reshaping how investors allocate capital. From early-stage angel investing to institutional venture strategies\, fund managers are redefining risk\, sector focus\, and geographic exposure.This session brings together investors actively deploying capital across the U.S. and Latin America to discuss how AI\, Sunbelt growth\, veteran-led ventures\, and emerging markets are influencing investment theses. The panel will provide founders and corporates with a realistic view of what capital is looking for in today’s market.\n\nSpeakers: Lala Elizondo\, Ryan Micheletti\, Sebastian Garzon\, Regina Zurutuza\, Otto Graff
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:67e9f5c1-1fc5-4ff7-852e-eba3d91070f2@incmty2026
+DTSTART:20260317T205000Z
+DTEND:20260317T213000Z
+SUMMARY:Hit Play on Your Idea
+DESCRIPTION:Talk on topics such as public policy\, entrepreneurship\, innovation\, and business\, structured into six thematic blocks. Each block will include moments of interaction with the audience to maintain active participation from the speakers and encourage the generation of organic content. At the end\, a Q&A session will be opened to further explore the topics discussed and promote dialogue with the audience.\n\nSpeakers: Virginia Hernández Vázquez\, Fito De La Isla
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:e6b0b49f-079c-47b7-a929-5fde4aeb53e3@incmty2026
+DTSTART:20260317T210000Z
+DTEND:20260318T000000Z
+SUMMARY:CASA EXATEC: Draw Me Bot Experience
+DESCRIPTION:EXATEC Exclusive: Capture your moment at Casa EXATEC and watch as a robotic arm creates your illustrated portrait. Experience a creative activity that brings together innovation and purpose\, exclusively for the EXATEC community.&nbsp\;\n\nSpeakers: CASA EXATEC
+LOCATION:TEC | CASA EXATEC | (TEC LOUNGE)
+END:VEVENT
+BEGIN:VEVENT
+UID:bd009c73-b07f-498f-9df4-ae95eb7b1518@incmty2026
+DTSTART:20260317T210000Z
+DTEND:20260318T000000Z
+SUMMARY:CASA EXATEC: Personal and Business Insurance Advisory
+DESCRIPTION:CASA EXATEC: Personal and Business Insurance Advisory\n\nSpeakers: CASA EXATEC
+LOCATION:TEC | CASA EXATEC | (TEC LOUNGE)
+END:VEVENT
+BEGIN:VEVENT
+UID:3fab3a06-e70a-4472-ad2f-f30552a82395@incmty2026
+DTSTART:20260317T210000Z
+DTEND:20260317T220000Z
+SUMMARY:Virtual Reality in Industrial Engineering. School of Engineering and Sciences (EIC)
+DESCRIPTION:Demonstration of virtual reality and digital twins applied to industrial engineering processes.\n\nSpeakers: Escuela de ingeniería y Ciencias  (EIC)
+LOCATION:TEC | Aulas 7 - 4º piso
+END:VEVENT
+BEGIN:VEVENT
+UID:78fe4dac-5085-4d2d-8336-fd3fb30a8266@incmty2026
+DTSTART:20260317T210000Z
+DTEND:20260317T230000Z
+SUMMARY:Tour of the Materials Characterization Laboratory – School of Engineering and Sciences (EIC)
+DESCRIPTION:Overview of the laboratory’s capabilities and academic equipment for training\, research\, and the development of student projects.\n\nSpeakers: Escuela de ingeniería y Ciencias  (EIC)
+LOCATION:TEC | Aulas 1\, 2º Piso\, Salón 202
+END:VEVENT
+BEGIN:VEVENT
+UID:f6073793-244f-49f7-b9e3-0f9493438d7c@incmty2026
+DTSTART:20260317T211000Z
+DTEND:20260317T214000Z
+SUMMARY:BACK TO PRESENCE
+DESCRIPTION:A bodily and sensory experience that allows you to release mental noise\, return to your body\, and remember what it feels like to simply BE AND BE PRESENT.From this state of presence and inner coherence\, clarity\, creativity\, and a more conscious\, human\, aligned\, and sustainable leadership naturally emerge.\n\nSpeakers: Gizehlle García
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:e7a4b85d-d479-4e57-ba44-44a869e1c98a@incmty2026
+DTSTART:20260317T212000Z
+DTEND:20260317T220000Z
+SUMMARY:Keys to improving productivity
+DESCRIPTION:Simon Cohen\, one of Mexico's most admired entrepreneurs and a "shark" on Shark Tank\, reveals that true productivity stems not from exhausting effort\, but from strategic clarity and personal well-being. In this session\, Simon shares the practical tools that led him to found one of the world's most successful logistics companies\, demonstrating how process optimization and people-centered leadership can radically transform the results of any business.\n\nSpeakers: Simon Cohen
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:3f0e948c-2140-4537-974f-017b611d8121@incmty2026
+DTSTART:20260317T214000Z
+DTEND:20260317T224000Z
+SUMMARY:Grow Your Business with AI
+DESCRIPTION:The "Grow Your Business with AI" workshop\, based on the book "Hack Your Business\," is an intensive workshop for business owners in Mexico seeking exponential growth. The goal is to share the latest trending tools in a practical way to transform your business in three months\, focusing on increasing sales\, improving efficiency\, and enhancing the customer experience. The core content is the practical and correct use of Artificial Intelligence tools to boost productivity and creativity. The workshop concludes with the creation of a 100-day plan for implementation and achieving results.\n\nSpeakers: Jahasiel E. Sevilla Muñoz
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:c9d15807-b0b7-40c0-a4d1-80dab0bda7c9@incmty2026
+DTSTART:20260317T214000Z
+DTEND:20260317T222000Z
+SUMMARY:Panel: Silicon Valley & Mexico: AI\, Venture Capital and the Future of Global Innovation
+DESCRIPTION:Silicon Valley remains the global epicenter of technological innovation\, venture capital\, and the development of artificial intelligence. At the same time\, Mexico is emerging as a strategic partner in talent\, entrepreneurship\, and the scaling of technology companies across the Americas. This panel brings together leaders from the Silicon Valley ecosystem and cross-border innovation networks to explore how AI\, venture capital\, and international collaboration are shaping the next generation of global innovation. The conversation will highlight opportunities for startups\, investors\, and institutions to build stronger bridges between Silicon Valley and Mexico\, accelerating technology development\, investment flows\, and entrepreneurial growth across the region.\n\nSpeakers: Sean Randolph\, Ursula Amanda Rojas Weiser\, Alejandra Martinez
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:6b5255c1-1c27-4203-8c45-85a53483ded1@incmty2026
+DTSTART:20260317T214000Z
+DTEND:20260317T224000Z
+SUMMARY:Mastering .MX: How to Turn Your Domain into a Sales Machine with Tiendanube
+DESCRIPTION:DescriptionIn this workshop\, we will explore how a domain can become the starting point for building a strong and profitable digital business. Drawing from experience in e-commerce and digital marketing\, you will learn how to leverage your .MX domain to create an online store\, strengthen your brand\, and turn visitors into customers. During the session\, we will share best practices\, tools\, and strategies to launch or scale a digital business using Tiendanube\, including how to connect your domain to an e-commerce platform and optimize your online presence to attract customers and drive growth.ObjectiveTo demonstrate how a .MX domain can become the foundation of a successful digital business by providing participants with practical tools and strategies to create\, position\, and grow their online store using Tiendanube.\n\nSpeakers: Alfredo Huerta
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:dbd86707-486f-409c-a8a3-b3beb4ece02c@incmty2026
+DTSTART:20260317T214000Z
+DTEND:20260317T222000Z
+SUMMARY:Powering IA and Digital Transformation with Dell Technologies
+DESCRIPTION:AI is the primary force accelerating digital transformation\, and most legacy data centers can’t keep up. A modern data center and multicloud foundation from Dell Technologies enables customers to ride this wave of AI by bringing AI closer to their data\, modernizing application platforms\, and unifying multicloud and edge environments so that AI and other workloads run wherever they generate the greatest value.At the same time\, built-in automation\, efficiency\, security\, and cyber resilience free up budget and human resources to focus on innovation.\n\nSpeakers: Arturo Benavides
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:946235e2-403c-48c2-898b-8c4096d09b7e@incmty2026
+DTSTART:20260317T220000Z
+DTEND:20260317T222000Z
+SUMMARY:Meditation practice. "Here and now: training attention"
+DESCRIPTION:This 25-minute in-person meditation practice\, based on the Healthy Minds program and developed by the Tecmilenio Institute of Purpose and Integral Wellbeing\, invites you to pause the daily rhythm and train mindfulness through guided breathing exercises and awareness of the present moment.\n\nSpeakers: Ana Belém García
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:ddb8b916-0b40-4627-aa3c-3db5f47e6d52@incmty2026
+DTSTART:20260317T220000Z
+DTEND:20260318T000000Z
+SUMMARY:SelectUSA & IncMTY’s: Mexico Pitching Session
+DESCRIPTION:The Commercial Service office in Mexico is hosting at IncMTY Festival\, the pitching event for tech startups to pitch in front of a panel of judges\, including venture capitalists and other investors. Startups that are interested in expanding to or investing in the U.S. are encouraged to join.Judges: Thomas M. Hogg\, CEO incMTYLala Elizondo\, Co-Founder & Managing Principal\, Tule CapitalRyan Micheletti\, Head of Global Operations\, Founder InstituteJuliana Garaizar\, Partner\, Greenbackers Investment Capital/PortfoliaFernando Huerta\, Seals AI\n\nSpeakers: Clarissa Bonillas
+LOCATION:TEC | (EXPEDITION FEMSA - BUSINESS INTELIGENCE)
+END:VEVENT
+BEGIN:VEVENT
+UID:3d3f655b-0641-460e-8cbc-9d615ee6c935@incmty2026
+DTSTART:20260317T222000Z
+DTEND:20260317T225000Z
+SUMMARY:Meet & Greet Simón Cohen Shark Tank México
+DESCRIPTION:More than a business gathering\, this Meet & Greet is an exclusive opportunity to engage up close with Simon Cohen\, one of the most human and disruptive leaders in today’s ecosystem. Founder of Henco Global and a benchmark in conscious leadership\, Simon will share in this intimate setting the philosophy that led him to build “the happiest company in the world.”\n\nSpeakers: Simon Cohen
+LOCATION:TEC | (EXPEDITION FEMSA - VENTURE CAFE)
+END:VEVENT
+BEGIN:VEVENT
+UID:0fcdf7e3-1819-4958-aadc-5bd8f28a1645@incmty2026
+DTSTART:20260317T222000Z
+DTEND:20260317T230000Z
+SUMMARY:Beyond the Hype: Adoption of Artificial Intelligence and the Talent that Transforms Companies
+DESCRIPTION:Artificial intelligence has generated great expectations in the business world\, but the real challenge lies in its actual adoption. In this conference\, Carlos Zenteno analyzes the difference between the hype around AI and the use cases that are currently generating an impact on productivity and data analysis.The main barriers to adoption—culture\, data\, and infrastructure—and the role of leadership in its integration are addressed. Likewise\, it reflects on the future of talent\, where critical thinking\, ethics\, and the ability to adapt become key differentiators. A practical perspective on moving toward a responsible and sustainable adoption of AI in companies.\n\nSpeakers: Carlos Zenteno
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:cfde6748-92ea-42cb-ab3d-3335c87e19b3@incmty2026
+DTSTART:20260317T223000Z
+DTEND:20260317T231000Z
+SUMMARY:Value algorithms: how AI is redefining business in Latin America
+DESCRIPTION:Join this unmissable panel where leading experts explore how artificial intelligence is transforming business models in Latin America\, generating sustainable value and new competitive opportunities.\n\nSpeakers: Alejandro Correa\, Alexandra Solano\, Ingrid Avilés Ahued\, Jorge de Lara
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:9475f9e9-2d02-40a0-b242-230f26561276@incmty2026
+DTSTART:20260317T223000Z
+DTEND:20260317T231000Z
+SUMMARY:Panel: New York–Mexico: Capital\, Innovation & the New Cross-Border Economy
+DESCRIPTION:New York and Mexico are redefining how capital\, corporations\, startups\, and governments collaborate in a rapidly evolving global economy. From venture capital and angel investing to Fortune 500 operational transformation and economic diplomacy\, this panel brings together leaders shaping the future of cross-border innovation.In a 40-minute high-impact conversation\, speakers will explore how AI\, private markets\, digital identity\, and global corporate ecosystems are unlocking new opportunities between both regions — and what founders\, investors\, and institutions must do to build scalable\, resilient\, and globally competitive partnerships.\n\nSpeakers: Antoine Colaço\, Carla Avila\, Jorge Paz-Soldan\, Rafael Barroso
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:7051825c-365a-44ec-a9cc-218b3b0882e8@incmty2026
+DTSTART:20260317T230000Z
+DTEND:20260317T233000Z
+SUMMARY:Connection
+DESCRIPTION:This 25-minute in-person meditation practice\, based on the Healthy Minds program and developed by the Tecmilenio Institute of Purpose and Integral Wellbeing\, invites you to pause the daily rhythm and train mindfulness through guided breathing exercises and awareness of the present moment.\n\nSpeakers: Ariadna Romero
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:b7ee1cc7-0197-4743-92ae-facff4fa37fd@incmty2026
+DTSTART:20260317T230000Z
+DTEND:20260318T000000Z
+SUMMARY:The Framework for Building a Global Startup in the Age of AI
+DESCRIPTION:“Hard Ground” is a talk based on the real experience of building a global startup from scratch.Forget product–market fit — that concept is incomplete. Founders who truly scale master four different fits\, and confusing one for another is why most startups stall or burn through cash too early.In this session\, we’ll explore the framework that allows you to understand exactly what stage your startup is in\, which levers to pull at each moment\, and how to maintain a compact and resilient team while getting there — especially now that AI allows you to operate at a global scale with a fraction of the resources you needed just five years ago.No textbook theory. Just what actually works when you’re building in the real world.\n\nSpeakers: Leonardo Vilchis
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:48410ddb-5014-4cce-8462-b190e27c0301@incmty2026
+DTSTART:20260317T230000Z
+DTEND:20260318T000000Z
+SUMMARY:Why most startups fail… and how to avoid it
+DESCRIPTION:Starting a business is one of the bravest decisions a person can make.But it's also one of the most uncertain adventures.The reality is that most startups fail in their first few years. However\, it's rarely discussed clearly why this happens and what an entrepreneur should focus on from the beginning to avoid it.When someone decides to start a business\, they receive a lot of advice:"Follow your passion\," "Work hard\," "Never give up\," "Give it your all!"But almost no one explains what mistakes to avoid and what to focus on from the start.In this conference\, Juan Carlos Cante\, president of the ASEM (Mexican Association of Entrepreneurs) Council\, will present the most relevant findings from the National Entrepreneurship Snapshot\, the most comprehensive study on entrepreneurs in Mexico\, based on the analysis of thousands of entrepreneurs and their real-life experiences.Based on this data\, he will share:• The most common reasons why startups fail• The mistakes thousands of entrepreneurs make without realizing it• The factors that truly increase the chances of surviving and growingBut more importantly\, Juan Carlos will share the key principles and decisions every entrepreneur must understand from the outset to build a solid\, sustainable\, and profitable business.With over 30 years as an entrepreneur\, founder of several companies\, and more than 25 brands developed\, Juan Carlos has worked in international markets\, taught entrepreneurship at Tecnológico de Monterrey\, been a member and leader of the Entrepreneurs’ Organization (EO) globally\, and currently chairs ASEM\, Mexico’s largest entrepreneur community with over 40\,000 members.This talk combines data\, real-world experience\, and insights from the entrepreneurial ecosystem\, offering a clear perspective on what it truly means to be an entrepreneur in Mexico today.If you're starting a business or thinking about doing so\, this conference can help you avoid costly mistakes and understand which decisions can make the difference between survival and failure.You'll also learn how ASEM can support you on this entrepreneurial journey\, ensuring you're never alone on your entrepreneurial path.\n\nSpeakers: Juan Carlos Cante
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:2c7290c8-8210-4847-858a-d09d3ccebb32@incmty2026
+DTSTART:20260317T232000Z
+DTEND:20260318T000000Z
+SUMMARY:Anáhuac A-Hub and Yucatán\, emerging ecosystems for scaling technology startups
+DESCRIPTION:This panel will explore how the entrepreneurial ecosystem in Yucatán\, based on its current conditions—talent\, quality of life\, connectivity\, entrepreneurial culture\, and institutional coordination—is creating an increasingly favorable environment for the creation\, growth\, and scaling of information and communication technology (ICT) startups. Through the direct experience of founders who have achieved exits\, international expansion\, accelerated growth\, and the consolidation of global teams from the region\, the key factors positioning Yucatán as an emerging hub for technological entrepreneurship in Mexico will be analyzed. This is a space to share lessons learned\, identify opportunities\, and envision the future of the digital ecosystem in southeastern Mexico.\n\nSpeakers: Alberto Ceballos\, Farique Cetina Carrillo\, Pablo Rizzi\, Fabiola Borquez\, Mayra Domínguez Zenteno
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:42b07b4c-2f51-4db9-b4e8-0f971d7a48a3@incmty2026
+DTSTART:20260317T232000Z
+DTEND:20260318T000000Z
+SUMMARY:Game Changers: Hacking the business of sports\, the rules are written in the feminine
+DESCRIPTION:Discover the perspectives of women in sports\, business\, and entrepreneurship\n\nSpeakers: Alexia Delgado\, Fernanda Corral\, María Eugenia Pérez\, Silvia Rico
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:e7302a87-e908-42f4-b13a-8e1545bcd5ae@incmty2026
+DTSTART:20260318T013000Z
+DTEND:20260318T050000Z
+SUMMARY:International Tech Party | incMTY x Beyond Business
+DESCRIPTION:International Tech Event​A night where tech meets international energy.​An event where tech talents\, international professionals\, founders and ambitious minds meet. To shape Latin Americas future - together.​Expect selected people\, good conversations and a vibrant networking atmosphere in the heart of Monterrey.​This night is all about...​Networking • Tech • Community​📍San Pedro Garza García\, Monterrey🗓 Tuesday\, 17 March 2026🕢 7:30 PM​Limited spots. More information soon.​Your Beyond Business TeamHOTEL MS MILLENIUM
+LOCATION:HOTEL MS MILLENIUM
+END:VEVENT
+BEGIN:VEVENT
+UID:0dcd7e41-ec1d-4067-bbdf-c4c83e1184b4@incmty2026
+DTSTART:20260318T143000Z
+DTEND:20260318T153000Z
+SUMMARY:The Entrepreneurial Mindset
+DESCRIPTION:In this conference\, you will explore why an entrepreneurial mindset is a key competency for any discipline today\, what beliefs may be limiting our potential\, and how to foster this way of thinking in ourselves and others.\n\nSpeakers: Gary Schoeniger
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:3b015542-0324-417c-9308-877f07c406b1@incmty2026
+DTSTART:20260318T150000Z
+DTEND:20260318T153000Z
+SUMMARY:Sound Healing (Bath with Gongs\, bowls\, drums\, bells\, and ancestral instruments)
+DESCRIPTION:A meditation experience is shared\, accompanied by the sound of different ancestral instruments\, so that whoever takes it\, can access states of relaxation and presence.\n\nSpeakers: Maria del Pilar Ortegon Williamson
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:68762af8-5df6-4e2a-a663-7cdcff484c58@incmty2026
+DTSTART:20260318T150000Z
+DTEND:20260318T160000Z
+SUMMARY:CASA EXATEC: Turning AI into Your Competitive Advantage
+DESCRIPTION:Exclusive for EXATEC: Provide alumni with tools to personalize and utilize artificial intelligence as a strategic ally\, turning it into a competitive advantage for their professional development.\n\nSpeakers: Octavio Edelberto Reyes Torres
+LOCATION:TEC | CASA EXATEC | (TEC LOUNGE)
+END:VEVENT
+BEGIN:VEVENT
+UID:2bd3cdaa-75af-4ab4-81e9-9200edea50e4@incmty2026
+DTSTART:20260318T153000Z
+DTEND:20260318T161000Z
+SUMMARY:Economic Development through Open Innovation and High-Impact Entrepreneurship
+DESCRIPTION:In this session\, the leaders of the Ministries of Economic Development from Jalisco\, Querétaro\, Mexico City (CDMX)\, Aguascalientes\, and Guanajuato discuss the strategies transforming their states into global investment hubs.Through the lens of open innovation\, the panelists will share how collaboration between government\, academia\, and industry is accelerating high-impact entrepreneurship. The discussion will address critical topics such as attracting smart capital\, leveraging nearshoring opportunities\, and building resilient ecosystems that not only generate jobs but also lead the country's technological frontier.
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:a3669cb2-0cc7-4b80-9dc9-71de070225fb@incmty2026
+DTSTART:20260318T155000Z
+DTEND:20260318T162000Z
+SUMMARY:BACK TO PRESENCE
+DESCRIPTION:A bodily and sensory experience that allows you to release mental noise\, return to your body\, and remember what it feels like to simply BE AND BE PRESENT.From this state of presence and inner coherence\, clarity\, creativity\, and a more conscious\, human\, aligned\, and sustainable leadership naturally emerge.\n\nSpeakers: Gizehlle García
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:0952f0ff-c577-41ae-9510-48ad024fc127@incmty2026
+DTSTART:20260318T160000Z
+DTEND:20260318T170000Z
+SUMMARY:Staying relevant as an independent creative in an ever changing market
+DESCRIPTION:Technology is ever changing and so are we. As a creative of over 35 years in the world of storytelling in animation and live action. I will discuss the importance of embracing change. How to evolve yourself as a creative and continue to stay relevant in a fast changing digital market.\n\nSpeakers: Travis Blaise
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:bd4ed263-46bd-43af-8d9d-0932f93353d4@incmty2026
+DTSTART:20260318T160000Z
+DTEND:20260318T170000Z
+SUMMARY:Attention: The new economy - How to win with content and accelerate with AI
+DESCRIPTION:Today\, attention is the most valuable currency. In this talk\, we'll see how to win it through content channels—image\, audio\, voice\, and text—and how artificial intelligence enhances each one to compete with greater impact\, speed\, and scale\, turning attention into a real business advantage.\n\nSpeakers: Rubendario Carrero Barroso
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:8bbb5e04-28e9-47e3-9345-1947b8d1226a@incmty2026
+DTSTART:20260318T160000Z
+DTEND:20260318T183000Z
+SUMMARY:incMTY Investor Roundtable
+DESCRIPTION:This event will bring together investors from Texas\, Silicon Valley\, New York\, and Mexico to discuss investment trends and explore synergies among participants.
+LOCATION:TEC | (EXPEDITION FEMSA - BUSINESS INTELIGENCE)
+END:VEVENT
+BEGIN:VEVENT
+UID:06e9f407-86fd-44be-b235-a7de49d288ce@incmty2026
+DTSTART:20260318T160000Z
+DTEND:20260318T162000Z
+SUMMARY:2026 Trends in Silicon Valley
+DESCRIPTION:Startup Land is shifting fast. AI is reshaping entire industries\, venture capitalists are rewriting their playbooks\, and startup teams are smaller\, faster\, and more capital-efficient than ever. In this talk\, I lay out the top ten trends that every entrepreneur\, innovator\, and investor needs to understand to navigate—and win—in the next era of startups.\n\nSpeakers: Bret Waters
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:b7eaf22a-27fe-470a-82cb-f916330faffa@incmty2026
+DTSTART:20260318T160000Z
+DTEND:20260318T170000Z
+SUMMARY:Virtual Reality in Industrial Engineering. School of Engineering and Sciences (EIC)
+DESCRIPTION:Demonstration of virtual reality and digital twins applied to industrial engineering processes.\n\nSpeakers: Escuela de ingeniería y Ciencias  (EIC)
+LOCATION:TEC | Aulas 7 - 4º piso
+END:VEVENT
+BEGIN:VEVENT
+UID:f7f4e00e-ce09-4e9e-8d87-9bb1acda6621@incmty2026
+DTSTART:20260318T160000Z
+DTEND:20260318T180000Z
+SUMMARY:Guided Tour of the Sustainable Technologies and Civil Engineering Laboratories – School of Engineering and Sciences (EIC)
+DESCRIPTION:Tour of the new facilities for fluids\, energy\, and sustainable energy.\n\nSpeakers: Escuela de ingeniería y Ciencias  (EIC)
+LOCATION:TEC | Aulas 7 - S26
+END:VEVENT
+BEGIN:VEVENT
+UID:eac2fc77-0510-4d04-bbd4-e6c1b1815c98@incmty2026
+DTSTART:20260318T160000Z
+DTEND:20260318T164000Z
+SUMMARY:Monterrey 2026: This is how we build a World Cup
+DESCRIPTION:This panel will address how the 2026 FIFA World Cup Monterrey Organizing Committee is preparing from different perspectives. Through the experience of the project leaders\, initiatives will be shared that seek to maximize the event's impact on the city and demonstrate how a global event can generate value for the community\, businesses\, and future generations beyond football. ⚽\n\nSpeakers: Mayra Ramírez Murillo\, Francisco Rodríguez\, Ivan Pérez\, Cesar Arellano Astorga\, Julio Valdés
+END:VEVENT
+BEGIN:VEVENT
+UID:e7f1df11-1c17-49f1-9e91-ee5f11a3bc2b@incmty2026
+DTSTART:20260318T162000Z
+DTEND:20260318T170000Z
+SUMMARY:Accelerate your projects with NVIDIA GeForce RTX Artificial Intelligence
+DESCRIPTION:In this conference\, we'll explore how AI powers RTX technologies that are transforming learning and industry\, enabling students to accelerate their workflows across various fields. We'll showcase demos in different applications and explore generative AI tools that optimize education and creativity. Finally\, we'll discuss how RTX technologies enhance gaming\, productivity\, and AI development\, preparing students for the new digital age.\n\nSpeakers: Cuauhtémoc “El Pollo” Escárcega
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:a8b565a0-f467-4e37-bb97-67896de89f5a@incmty2026
+DTSTART:20260318T163000Z
+DTEND:20260318T171000Z
+SUMMARY:AI in action: EXATEC leadership in the era of artificial intelligence
+DESCRIPTION:To inspire the community through the experience of EXATEC leaders who are taking artificial intelligence from strategy to action\, showing how leadership\, innovation\, and technology combine to transform industries and decision-making in a constantly evolving environment.\n\nSpeakers: Ángela Gómez Aíza\, Carles Abarca de Haro\, Daniela Camberos\, Francisco Lebrija Z.
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:a36955d9-cb76-4910-89c5-882e9f8fb4c7@incmty2026
+DTSTART:20260318T163000Z
+DTEND:20260318T190000Z
+SUMMARY:Guided Tour of the Prototyping Workshop
+DESCRIPTION:Tour of the areas where students build prototypes and experiment with different materials.\n\nSpeakers: Escuela de Arquitectura\, Arte y Diseño (EAAD)
+LOCATION:TEC | Aulas 4 - 129-1
+END:VEVENT
+BEGIN:VEVENT
+UID:d41b718a-ed89-422b-9ae8-93017aced56f@incmty2026
+DTSTART:20260318T164000Z
+DTEND:20260318T171000Z
+SUMMARY:Sound Healing (Bath with Gongs\, bowls\, drums\, bells\, and ancestral instruments)
+DESCRIPTION:A meditation experience is shared\, accompanied by the sound of different ancestral instruments\, so that whoever takes it\, can access states of relaxation and presence.\n\nSpeakers: Maria del Pilar Ortegon Williamson
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:79aff74a-ee7e-4911-bdc5-787a6db76e84@incmty2026
+DTSTART:20260318T165000Z
+DTEND:20260318T171000Z
+SUMMARY:Redefining protection: benefits that empower businesses and their people
+DESCRIPTION:Explore how technology\, flexible benefits\, and strategic alliances are transforming protection into a competitive advantage. A renewed vision of insurance that drives well-being\, culture\, and sustainable growth for organizations.\n\nSpeakers: Aitor Echeverría Díaz
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:1a82f61e-835c-42e6-b9ba-e7ea55276110@incmty2026
+DTSTART:20260318T170000Z
+DTEND:20260318T172000Z
+SUMMARY:Book Meeting: Partner Conflicts\, Causes and Prevention
+DESCRIPTION:In this book\, the author warns us about what we should do—and what we should avoid—in our daily lives so that our organizations can develop without the setbacks that often cause significant harm to society. It can serve as a guide on how business partnerships should be organized\, what we should safeguard against\, what we must avoid\, and how we should learn to be partners\, shareholders\, leaders\, or business owners. It also shows how a family or institutional company should be managed when preparing for succession.In everyday life\, it is important that our conduct be guided by conviction\, applying the rules of common sense\, morality\, and ethics accepted by our society—where one of the fundamental principles is not to do to others what we would not want done to ourselves.Solving a problem by addressing its causes rather than its effects helps prevent its recurrence and allows for a definitive resolution of the damage caused\, whether partially repaired or\, when necessary\, by acknowledging and assuming the losses incurred.The author begins by reminding us that “problems are first human and then legal\, not the other way around.” Relationships must evolve and include the foundations needed to guarantee fair and balanced treatment among their members.It is essential to rationalize\, from the moment the rules governing a partnership are established\, not only the theoretical provisions that define obligations of what should or should not be done\, but also to incorporate rights and duties whose fulfillment must be guaranteed. These rules must become guiding principles that ensure\, in practice—whether by conviction or obligation—the observance of norms and values that support a healthy business coexistence.\n\nSpeakers: Salvador Benitez
+LOCATION:TEC | (EXPEDITION FEMSA - VENTURE CAFE)
+END:VEVENT
+BEGIN:VEVENT
+UID:84c9511b-682b-4236-86cf-8aba893a228c@incmty2026
+DTSTART:20260318T170000Z
+DTEND:20260318T173000Z
+SUMMARY:Navigating the Campus with VanTec
+DESCRIPTION:Discover the campus through a ride in Tecnológico de Monterrey’s autonomous vehicle.Maximum capacity per ride: 6 peopleRoute: From the Campus Library to the final stop at Expedition FEMSA. 🚗
+LOCATION:TEC | Biblioteca
+END:VEVENT
+BEGIN:VEVENT
+UID:c289aea4-37f0-4409-a762-4f3152f8fa93@incmty2026
+DTSTART:20260318T171000Z
+DTEND:20260318T175000Z
+SUMMARY:Intelligence begins with data
+DESCRIPTION:The world runs on data. However\, for years\, the signals were there as noise: isolated fragments\, scattered information\, and difficult to interpret. This session explores how we went from observing disconnected data to reading patterns that transform chaos into intelligence and uncertainty into direction.In an environment where data grows in volume\, velocity\, and diversity—structured and unstructured\, distributed across clouds\, systems\, and geographies—the challenge is no longer obtaining information\, but unifying it with governance\, traceability\, and trust so that it generates real results. The discussion addresses why\, without these foundations\, innovation doesn't scale\, returns diminish\, and risk increases.Based on this premise\, the session presents how a unified platform allows AI to be brought to the data (or data to AI)\, eliminating silos and enabling real-time decision-making. With security as the starting point\, Oracle shows how to transform mission-critical data into a driving force for growth\, efficiency\, and innovation\, preparing organizations for the next wave of artificial intelligence: more complex models\, massive volumes of information\, and continuous\, purposeful action."\n\nSpeakers: Elisa Escalante
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:ba7af4cc-25be-4d0d-9d7c-ba7f27406e66@incmty2026
+DTSTART:20260318T172000Z
+DTEND:20260318T174000Z
+SUMMARY:What does a university do for SMEs?
+DESCRIPTION:To discuss how the SBDC model generates impact in Nuevo León.\n\nSpeakers: Eugenio José Reyes Guzmán
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:9789a688-0a93-44f7-a929-d6ae539a9c64@incmty2026
+DTSTART:20260318T172000Z
+DTEND:20260318T174000Z
+SUMMARY:The Art of Fulfilling Dreams
+DESCRIPTION:Learn about the life of Mexican illustrator Alex Carrillo\, who talks about how his adventure as an illustrator began\, taking his art to art exhibitions\, animated short films\, and collaborating with high-impact international brands.\n\nSpeakers: Alex Carrillo
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:1dc7e991-5bbe-493f-bcb8-d63d3f141329@incmty2026
+DTSTART:20260318T172000Z
+DTEND:20260318T182000Z
+SUMMARY:Roadmapping: The Vision from the Future
+DESCRIPTION:In the fast-paced tech world\, the urgent often takes priority over the important. How can you create product strategies that drive long-term impact? In this session\, you’ll discover how to transform complex ideas into an actionable and innovative framework. Learn how to align every team effort with business goals and user needs. Turn your vision into a concrete plan you can execute today.\n\nSpeakers: Luisa Arévalo
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:cb5fe8b7-9a98-474d-98a1-0dd3823fc5c6@incmty2026
+DTSTART:20260318T172000Z
+DTEND:20260318T182000Z
+SUMMARY:Japan Panel – Invited: Economic and Innovation Partnership between Japan and Mexico
+DESCRIPTION:Japanese corporations\, manufacturers\, and other organizations will come together to present practical cases of innovation\, technological development\, and collaborative efforts at both the national and international levels. They will share their expectations for startups\, key considerations for collaborating with Japanese companies\, and the types of government support available\, including real-world case studies.This session represents a valuable opportunity for startups and university representatives to gain insights into collaborating with Japanese companies and expanding internationally.\n\nSpeakers: Chiaki Kobayashi\, Ryuta Fukasawa\, Satoshi Takehara\, David Campos\, Alejandro Carmona
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:6f912ab5-a289-4b95-84f3-0afd0bfc43d6@incmty2026
+DTSTART:20260318T173000Z
+DTEND:20260318T180000Z
+SUMMARY:BACK TO PRESENCE
+DESCRIPTION:A bodily and sensory experience that allows you to release mental noise\, return to your body\, and remember what it feels like to simply BE AND BE PRESENT.From this state of presence and inner coherence\, clarity\, creativity\, and a more conscious\, human\, aligned\, and sustainable leadership naturally emerge.\n\nSpeakers: Gizehlle García
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:9903fdf6-5c14-430a-9586-89b78f4afaf3@incmty2026
+DTSTART:20260318T173000Z
+DTEND:20260318T190000Z
+SUMMARY:CASA EXATEC: EXATEC Panel and Networking: Strengthen Your Management Skills as an EXATEC SME Owner
+DESCRIPTION:Exclusive for EXATEC: Foster collaboration and development among EXATEC SMEs by providing a space to share knowledge\, resources\, opportunities\, and networks that enable them to grow sustainably and improve their market positioning.\n\nSpeakers: Christian Hernando Salazar Mantilla
+LOCATION:TEC | CASA EXATEC | (TEC LOUNGE)
+END:VEVENT
+BEGIN:VEVENT
+UID:3e6c16a7-1bf0-4d6b-b76e-8d5ae8d21d0a@incmty2026
+DTSTART:20260318T173000Z
+DTEND:20260318T190000Z
+SUMMARY:Bakery Product Reformulation Workshop: Egg Substitution
+DESCRIPTION:Content: Techniques and alternatives to eliminate eggs in bakery recipes while maintaining quality\, flavor\, and texture\; with a focus on allergies\, vegan options\, and cost reduction.\n\nSpeakers: Escuela de ingeniería y Ciencias  (EIC)
+LOCATION:TEC | Centro de Biotecnología (3er piso) | Laboratorio de Cereales
+END:VEVENT
+BEGIN:VEVENT
+UID:2e7f199a-0ce1-476d-9834-283a9aa9be88@incmty2026
+DTSTART:20260318T174000Z
+DTEND:20260318T180000Z
+SUMMARY:Life Is a Sandcastle
+DESCRIPTION:Why would you invest time\, energy\, and love in creating something today—whether it's a sandcastle or your life—knowing it could disappear tomorrow?This talk will answer that question and present a simple yet profound philosophy for seeing and understanding the life you live more clearly.The intention is to make you think\, to question everything\, especially the things that make up your daily life and your comfort zone\; those things that\, too often\, don't receive enough attention or appreciation.Imagining life as a sandcastle will help you pause\, redefine your approach\, and distinguish the good and beneficial things from those that aren't. It will also give you the opportunity to open yourself to new experiences\, develop your creativity\, and even change your mind.\n\nSpeakers: Tero Moliis
+LOCATION:TEC | (EXPEDITION FEMSA - VENTURE CAFE)
+END:VEVENT
+BEGIN:VEVENT
+UID:acd1e5d6-8e27-442c-9900-fa393510fa47@incmty2026
+DTSTART:20260318T175000Z
+DTEND:20260318T183000Z
+SUMMARY:MTY Digital: Government as an Engine for Innovation and Entrepreneurship
+DESCRIPTION:This talk explores how local governments can become enablers of the entrepreneurial ecosystem through regulatory simplification\, the digitalization of procedures\, and the creation of institutional environments that facilitate innovation. Based on the Monterrey experience\, the session will analyze the new role of municipal government as a platform that connects talent\, investment\, and technology to drive economic growth and the development of new businesses.\n\nSpeakers: Julio Hajime Toy Ovando\, Manuel Gerardo Flores Romero\, Ximena Tamariz García\, Héctor Tijerina Morales
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:3fea16f2-eed2-4a32-bb75-fba2f0db1fd1@incmty2026
+DTSTART:20260318T180000Z
+DTEND:20260318T182000Z
+SUMMARY:Experimental Identity: Own the Destination in the AI Era
+DESCRIPTION:AI master every “how.” The last edge belongs to those who ruthlessly own the “where.” From British Cycling’s 1% marginal gains to Kaizen standards and escaping out-of-the-loop drift\, this keynote reveals how turning experimentation into identity compounds into real power in 2026. Stop drifting as passenger. Become the architect.\n\nSpeakers: Josue González Hernández
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:8463519c-5487-4b47-b9ab-87b63300b06b@incmty2026
+DTSTART:20260318T182000Z
+DTEND:20260318T184000Z
+SUMMARY:Book presentation: Awakening of Colors
+DESCRIPTION:Mexican illustrator Alex Carrillo will present his new book\, Awakening of Colors\, a story set in a world where creativity has completely disappeared and a group of young people come together to awaken it.The book is published by Penguin Random House.\n\nSpeakers: Alex Carrillo
+LOCATION:TEC | (EXPEDITION FEMSA - VENTURE CAFE)
+END:VEVENT
+BEGIN:VEVENT
+UID:81bef1cf-8240-4d37-91e9-66fcd46a4ae2@incmty2026
+DTSTART:20260318T183000Z
+DTEND:20260318T190000Z
+SUMMARY:Insight
+DESCRIPTION:Here and Now: Training AttentionA 25-minute in-person practice\, based on the Healthy Minds program and developed by the Tecmilenio Institute of Purpose and Integral Wellbeing\, that invites you to pause the daily rhythm and train mindfulness through guided breathing exercises and awareness of the present moment.\n\nSpeakers: Rosalinda Ballesteros
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:98b90b02-15d9-4702-875f-fec5057c4a0a@incmty2026
+DTSTART:20260318T183000Z
+DTEND:20260318T185000Z
+SUMMARY:The Innovation Bridge: How Mexico\, the U.S. and LATAM Can Build the Next Healthtech Ecosystem
+DESCRIPTION:How do we transform scientific talent into real solutions for millions of people?Latin America and the United States share major health challenges—from chronic diseases to aging populations—yet innovation ecosystems still operate in isolation. This conversation brings together leaders from the Inter-American Development Bank and Tecnológico de Monterrey to explore how cross-border collaboration can unlock a new generation of science-based startups.The panel will discuss how universities\, investors\, governments\, and entrepreneurs can build a binational innovation pipeline that accelerates deep-tech ventures\, validates them in real healthcare systems\, and scales solutions across the Americas.\n\nSpeakers: Josue Delgado\, Ulrick Noel\, Cesar Buenadicha
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:5dea1273-8caf-442a-865b-76b60c2d6d41@incmty2026
+DTSTART:20260318T183000Z
+DTEND:20260318T190000Z
+SUMMARY:Navigating the Campus with VanTec
+DESCRIPTION:Discover the campus through a ride in Tecnológico de Monterrey’s autonomous vehicle.Maximum capacity per ride: 6 peopleRoute: From the Campus Library to the final stop at Expedition FEMSA. 🚗
+LOCATION:TEC | Biblioteca
+END:VEVENT
+BEGIN:VEVENT
+UID:c4b55e98-5d06-43d9-806a-5fa4372668a8@incmty2026
+DTSTART:20260318T184000Z
+DTEND:20260318T190000Z
+SUMMARY:AI and the Art of Being Human
+DESCRIPTION:I will present a mindset and series of practices tools that allow every individual to develop a roadmap to thrive in the age of AI based on my book\, “AI and the Art of Being Human.”\n\nSpeakers: Jeffrey Abbott
+LOCATION:TEC | BOLD VISION | (EXPEDITION - AUDITORIO EXPEDITION)
+END:VEVENT
+BEGIN:VEVENT
+UID:5e58738a-dc32-44da-a670-ce601a5f4e47@incmty2026
+DTSTART:20260318T184000Z
+DTEND:20260318T190000Z
+SUMMARY:The marketing of the future is human: How to differentiate yourself when AI makes everything "generic"?
+DESCRIPTION:In an environment where artificial intelligence has democratized content production and accelerated campaign execution\, the real challenge is no longer "doing more marketing\," but rather being more relevant. This keynote proposes a central idea: when everything can be automated\, what's scarce is the human touch applied to brand design\, experience\, and relationships.Over 20 minutes\, Ronan Massez presents a practical framework for leaders and entrepreneurs to use AI as an accelerator without falling into homogenization: what to automate\, what to never delegate (empathy\, judgment\, and consistency)\, and how to build differentiation based on trust\, emotion\, and consistent experience. The result: a clear guide to moving from data-driven to human-driven marketing\, capable of generating sustainable growth and reputation in the age of AI.\n\nSpeakers: Ronan Massez
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:9e5ff975-8569-4773-833b-10998a132c72@incmty2026
+DTSTART:20260318T184000Z
+DTEND:20260318T194000Z
+SUMMARY:Workshop | The new era of connection: AI for the real world — TELCEL.
+DESCRIPTION:What happens when aesthetic sophistication is taken to an unprecedented level? We create devices that redefine what a smartphone can do—designed to solve the real challenges of your everyday life\, even before they arise.\n\nSpeakers: Alejandro Eliasib Martínez Rubio
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:c94bb5c0-fcb4-4f27-88af-504789f280e4@incmty2026
+DTSTART:20260318T184000Z
+DTEND:20260318T194000Z
+SUMMARY:From Chaos to Calm: Design Your Semester with Gemini
+DESCRIPTION:Stop surviving college and start designing it. Have you ever felt like the semester is "eating you alive"? Between 50-page PDFs\, finals\, and exhaustion\, it's easy to lose control. But what if I told you that Artificial Intelligence isn't just for doing assignments\, but for giving you back your time?In this 60-minute workshop\, we'll turn Gemini and NotebookLM into your productivity empowerment squad. It's not a tech course\; it's your opportunity to discover different tools and use cases for applying AI responsibly and creatively.\n\nSpeakers: Ingrid Avilés Ahued
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:5475fdd7-0b9f-4c08-85a3-aae0a77811be@incmty2026
+DTSTART:20260318T190000Z
+DTEND:20260318T192000Z
+SUMMARY:Presentation of the book “AI and the Art of Being Human”
+DESCRIPTION:The book “AI and the Art of Being Human” by Jeffrey Abbott (VC and founder of AI Salon) and Andrew Maynard (academic at ASU) serves as a practical guide on how to remain human while working side-by-side with AI.\n\nSpeakers: Jeffrey Abbott
+LOCATION:TEC | (EXPEDITION FEMSA - VENTURE CAFE)
+END:VEVENT
+BEGIN:VEVENT
+UID:7c47783d-2e5d-49b4-a559-d2356f894265@incmty2026
+DTSTART:20260318T190000Z
+DTEND:20260318T194000Z
+SUMMARY:Slow Down to Speed Up: The AI Paradox in Regulated Industries
+DESCRIPTION:How can you leverage accelerated innovation in highly regulated environments where there is no room for error? In this session\, you’ll discover why security isn't a bottleneck\, but rather the engine behind AI. We will analyze strategies for scaling models with confidence\, transforming regulation into a competitive advantage\, and exploring real-world strategic execution lessons to navigate this ecosystem.\n\nSpeakers: Christian González
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:079c1540-1790-462d-852f-cecd15fb1249@incmty2026
+DTSTART:20260318T191000Z
+DTEND:20260318T195000Z
+SUMMARY:Building a world-class startup: Seals AI\, Altur\, and Buildpeer
+DESCRIPTION:Three founders from Monterrey and a Silicon Valley investor share the keys to creating a successful startup in 2026.\n\nSpeakers: Iván Montoya\, Luis Mario García\, Luis Olave\, Mauricio Valdes
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:52eebc26-6e34-4c6a-a8c1-d470b4ca1e48@incmty2026
+DTSTART:20260318T191000Z
+DTEND:20260318T195000Z
+SUMMARY:Designed to Bloom
+DESCRIPTION:In a world where artificial intelligence is accelerating the future\, Designed to Flourish reminds us that the greatest advancement remains human. By discovering and transforming our talents\, we align creativity and technology to deliver relevant\, authentic\, and essential contributions to the evolution of our society.\n\nSpeakers: Rosemary Martínez Jover
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:0e086753-3482-4a61-afcb-fc32e004121c@incmty2026
+DTSTART:20260318T194000Z
+DTEND:20260318T200000Z
+SUMMARY:Book meeting: The BIG 3
+DESCRIPTION:In The BIG 3\, Efraín Mendicuti dismantles\, with lucidity\, humor\, and brutal honesty\, one of the great myths of the modern world: that doing more equals getting further. Drawing on his experience leading teams at global companies like Google\, Twitter\, and Pinterest\, and years of mentoring leaders\, executives\, and entrepreneurs\, the author proposes a methodology as simple as it is powerful: choosing just three top priorities to guide your energy\, your decisions\, and your life.This is not a traditional productivity book or a collection of empty formulas. It's a compass. The BIG 3 invites you to stop being trapped by pending tasks\, other people's urgent needs\, and endless lists\, and to start acting with intention\, purpose\, and clarity. Through real-life stories\, profound reflections\, and practical tools\, Mendicuti shows how focusing on what's important—at work and in your personal life—can transform results\, well-being\, and your sense of direction.With a warm\, ironic\, and deeply human tone\, the author explores themes such as purpose\, non-negotiable values\, rest as a high-performance strategy\, the difference between movement and progress\, and the power of saying “no” without guilt. The result is a method applicable to both organizations and individuals seeking more than just success: they seek coherence. The BIG 3 doesn't promise magic. It promises something better: clarity to choose\, discipline to move forward\, and awareness to build a life\, and a year\, that are truly worthwhile.\n\nSpeakers: Efraín Mendicuti
+LOCATION:TEC | (EXPEDITION FEMSA - VENTURE CAFE)
+END:VEVENT
+BEGIN:VEVENT
+UID:a7044036-9483-477e-8264-eadcf6f7b578@incmty2026
+DTSTART:20260318T200000Z
+DTEND:20260319T010000Z
+SUMMARY:SME Day: Graduation of the Free SME SOS Digitalization Program
+DESCRIPTION:SME Day\, organized by the Center of Excellence for SME Business Development at Tecnológico de Monterrey\, is a space for learning and business connection where the national community of small and medium-sized business owners gathers at INC Monterrey.In this edition\, we will celebrate the graduation of the free SME SOS Digitalization Program\, joined by Betsabé Rocha\, Secretary of Economy of the Government of the State of Nuevo León. In addition\, we will host e-commerce workshops with the Argentine unicorn Tiendanube\, explore the impact of artificial intelligence through a workshop by Lovable\, and learn about the global opportunities available to SMEs through the international network of Small Business Development Centers (SBDC) in the United States.Note: The event will take place from 2:00 p.m. to 7:00 p.m. on the second floor of the Expedition Entrepreneurship Gateway building.March 1811:30 AM – 1:00 PMEXATEC SME Panel – Exclusive for EXATECTEC Lounge2:00 PM – 3:00 PMRegister\, Build\, and Improve Your Store with AI on TiendanubeMultipurpose Room\, Floor 7 – Expedition FEMSA3:00 PM – 4:00 PMDigitalize and Sell with AI by LovableEntrepreneurship Gateway\, Floor 2 – Expedition FEMSA4:00 PM – 5:00 PMGraduation of the 2nd Generation of PyME SOS Nuevo LeónEntrepreneurship Gateway\, Floor 2 – Expedition FEMSA5:00 PM – 6:00 PMSBDC: A Platform for Doing Business with the United StatesEntrepreneurship Gateway\, Floor 2 – Expedition FEMSA6:00 PM – 7:00 PMNational Gathering of the Center of Excellence for Business DevelopmentEntrepreneurship Gateway\, Floor 2 – Expedition FEMSA\n\nSpeakers: Christian Hernando Salazar Mantilla
+LOCATION:Entrepreneurship Gateway | EXPEDITION FEMSA
+END:VEVENT
+BEGIN:VEVENT
+UID:a2b94120-034d-4115-acce-ed2a4a14fdc1@incmty2026
+DTSTART:20260318T200000Z
+DTEND:20260320T203000Z
+SUMMARY:Navigating the Campus with VanTec
+DESCRIPTION:Discover the campus through a ride in Tecnológico de Monterrey’s autonomous vehicle.Maximum capacity per ride: 6 peopleRoute: From the Campus Library to the final stop at Expedition FEMSA. 🚗
+LOCATION:TEC | Biblioteca
+END:VEVENT
+BEGIN:VEVENT
+UID:f8f87bb7-5970-463b-a77f-f568c3bc527c@incmty2026
+DTSTART:20260318T202000Z
+DTEND:20260318T204000Z
+SUMMARY:How Investors Really Think (It's Not What You've Been Told)
+DESCRIPTION:Innovative ideas are easy\; building successful companies is hard. Learn how early-stage investors evaluate risk\, people\, and momentum to identify the companies with the best odds of success.\n\nSpeakers: Mitra Miller
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:0774df72-a43c-429a-bf10-fc9c1c9c8b77@incmty2026
+DTSTART:20260318T202000Z
+DTEND:20260318T204000Z
+SUMMARY:Book meeting: Goodbye Mom\, Goodbye Dad
+DESCRIPTION:In this meeting\, Rosemary tells us about the comforting book she wrote after experiencing the death of her parents\, and learning that life acquires meaning and focus by accepting that any day can end.\n\nSpeakers: Rosemary Martínez Jover
+LOCATION:TEC | (EXPEDITION FEMSA - VENTURE CAFE)
+END:VEVENT
+BEGIN:VEVENT
+UID:f90ba1c0-9b19-4262-84f0-f93c71ee33b1@incmty2026
+DTSTART:20260318T202000Z
+DTEND:20260318T210000Z
+SUMMARY:Build and improve your store with AI on Tiendanube
+DESCRIPTION:Having an online store is the first step to selling professionally. But you should know something: customers won't come on their own.In the midst of 2026\, thanks to the growth of AI\, you can improve your brand's presence\, optimize product uploads\, customer service\, and even organic search engine positioning.Find out how to improve your store with the help of Tiendanube and its AI functions.\n\nSpeakers: Alfredo Huerta
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:c8b325cc-b811-4f8a-946e-6262df0639d4@incmty2026
+DTSTART:20260318T203000Z
+DTEND:20260318T233000Z
+SUMMARY:Guided Tour of the Prototyping Workshop
+DESCRIPTION:Tour of the areas where students build prototypes and experiment with different materials.\n\nSpeakers: Escuela de Arquitectura\, Arte y Diseño (EAAD)
+LOCATION:TEC | Aulas 4 - 129-1
+END:VEVENT
+BEGIN:VEVENT
+UID:5ce81e30-17ee-42a5-bb96-023bbb0021ee@incmty2026
+DTSTART:20260318T203000Z
+DTEND:20260318T230000Z
+SUMMARY:Visit to the Sustainable Energy Lab\, Expedition FEMSA – School of Engineering and Sciences (EIC)
+DESCRIPTION:Presentation of the laboratory’s flagship projects in sustainable energy.\n\nSpeakers: Escuela de ingeniería y Ciencias  (EIC)
+LOCATION:TEC | EXPEDITION FEMSA - Piso 7
+END:VEVENT
+BEGIN:VEVENT
+UID:d2a4d052-d78f-4539-904b-2d5babd8a3db@incmty2026
+DTSTART:20260318T204000Z
+DTEND:20260318T210000Z
+SUMMARY:Let's Speak Our Language: From 'Finance Bro' to Finance for All
+DESCRIPTION:Have you ever felt like the investment world doesn't speak your language? It's no coincidence: the system was designed to exclude us.In this talk\, we explore how financial jargon became a barrier and how we embarked on a journey to hack it. From a system designed for the few\, "Bro-talk\," to a clearer\, more human\, and transparent way of investing. That's why Pilou was born: to transform investing into a tool for freedom and empowerment.\n\nSpeakers: Andrea de la Garza
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:9627b171-6795-4a96-977b-59f25447e0d8@incmty2026
+DTSTART:20260318T205000Z
+DTEND:20260318T211000Z
+SUMMARY:Energy and sustainability financing on a global scale
+DESCRIPTION:Talk on energy financing and sustainability\, global trends and how they differ since the global geopolitical environment has changed\n\nSpeakers: Juliana Garaizar
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:7f3e1d54-cbff-4d1c-b61d-994be6e58ffd@incmty2026
+DTSTART:20260318T210000Z
+DTEND:20260318T212000Z
+SUMMARY:The 5 stars for your professional development
+DESCRIPTION:A dynamic conference on how to take responsibility for our professional development\, aligning our career with a strong sense of shared purpose that stems from our greatest strengths and interests\, and how\, through The Big 3\, we put these to use for others while building and living the life we ​​want to live.\n\nSpeakers: Efraín Mendicuti
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:12a86edd-f6c1-4f9e-833f-ede2602d3bfa@incmty2026
+DTSTART:20260318T210000Z
+DTEND:20260318T213000Z
+SUMMARY:Purpose
+DESCRIPTION:Here and Now: Training AttentionA 25-minute in-person practice\, based on the Healthy Minds program and developed by the Tecmilenio Institute of Purpose and Integral Wellbeing\, that invites you to pause the daily rhythm and train mindfulness through guided breathing exercises and awareness of the present moment.\n\nSpeakers: Epifanio Sánchez
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:db6e9330-56f5-45e9-94db-233dd25a3bb9@incmty2026
+DTSTART:20260318T210000Z
+DTEND:20260318T212000Z
+SUMMARY:Bookmeeting: From consumer to ‘homo experiens’: trends in experience and emotion
+DESCRIPTION:In a market where technology and AI are accelerating campaigns\, content\, and automation\, the true differentiator is no longer just data: it's experience. This talk explores the paradigm shift from the "rational consumer" to homo experiens: a conscious\, emotional\, and multidimensional individual who chooses brands based on how they make them feel\, the coherence of their experiences\, and the meaning they construct in every interaction.Based on current trends in experience\, emotion\, and behavior\, the session presents how journeys are evolving (becoming more fragmented and "phygital")\, why emotion has become a strategic asset (memory\, preference\, recommendation)\, and what this means for designing relevant brands: less interruption\, more utility\; less promise\, more proof\; less campaigning\, more consistency. The content culminates in a practical framework for leaders and entrepreneurs to identify "moments of truth" and redesign experiences that generate real differentiation\, trust\, and growth.\n\nSpeakers: Ronan Massez
+LOCATION:TEC | (EXPEDITION FEMSA - VENTURE CAFE)
+END:VEVENT
+BEGIN:VEVENT
+UID:cbd0f09a-2bf7-4841-8d65-30e54655e883@incmty2026
+DTSTART:20260318T210000Z
+DTEND:20260319T000000Z
+SUMMARY:CASA EXATEC: Personal and Business Insurance Advisory
+DESCRIPTION:CASA EXATEC: Personal and Business Insurance Advisory\n\nSpeakers: CASA EXATEC
+LOCATION:TEC | CASA EXATEC | (TEC LOUNGE)
+END:VEVENT
+BEGIN:VEVENT
+UID:79f1aff6-74dc-4676-93da-9c7207f8d003@incmty2026
+DTSTART:20260318T210000Z
+DTEND:20260318T230000Z
+SUMMARY:Digitalize and Sell with AI by Lovable Vibecoding Hackathon
+DESCRIPTION:A 2-hour hands-on workshop designed for entrepreneurs\, students\, and small to medium-sized businesses looking to modernize and scale their operations using Artificial Intelligence and e-commerce tools. During the session\, participants will receive an introduction to the world of Lovable and learn how to automate processes\, easily implement e-commerce solutions\, improve sales and operational efficiency\, and use accessible digital tools without the need for advanced technical knowledge. The approach is 100% practical and focused on immediate results.\n\nSpeakers: Fernando Obregon
+LOCATION:Entrepreneurship Gateway | EXPEDITION FEMSA
+END:VEVENT
+BEGIN:VEVENT
+UID:44a48ecb-0a5f-43df-a1cc-117cd37fa128@incmty2026
+DTSTART:20260318T210000Z
+DTEND:20260318T220000Z
+SUMMARY:Virtual Reality in Industrial Engineering. School of Engineering and Sciences (EIC)
+DESCRIPTION:Demonstration of virtual reality and digital twins applied to industrial engineering processes.\n\nSpeakers: Escuela de ingeniería y Ciencias  (EIC)
+LOCATION:TEC | Aulas 7 - 4º piso
+END:VEVENT
+BEGIN:VEVENT
+UID:202fc766-7fb8-43a9-a7f7-07f502975c3b@incmty2026
+DTSTART:20260318T210000Z
+DTEND:20260318T230000Z
+SUMMARY:Guided Tour of the Sustainable Technologies and Civil Engineering Laboratories – School of Engineering and Sciences (EIC)
+DESCRIPTION:Tour of the new facilities for fluids\, energy\, and sustainable energy.\n\nSpeakers: Escuela de ingeniería y Ciencias  (EIC)
+LOCATION:TEC | Aulas 7 - S26
+END:VEVENT
+BEGIN:VEVENT
+UID:e19d5079-f7a1-4568-9349-8eba9b81f9da@incmty2026
+DTSTART:20260318T211000Z
+DTEND:20260318T213000Z
+SUMMARY:Unwavering Leadership
+DESCRIPTION:Unwavering LeadershipIn an environment where innovation moves faster than certainty\, leadership is no longer based solely on strategy\, but on the mental fortitude and human skills of the leader.In this conference\, we will explore how truly unwavering leadership is forged\, not innate. Being a leader today is not just about directing\; it's about remaining calm when everything changes\, making conscious decisions\, and inspiring others to go beyond what they thought possible.Because true leadership emerges when your mind becomes unwavering…and your team perceives it.\n\nSpeakers: Celia Martínez del Toro
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:0285e274-5f8a-46c8-ad5d-ffda0b57c9eb@incmty2026
+DTSTART:20260318T212000Z
+DTEND:20260318T220000Z
+SUMMARY:Everyone can change the world
+DESCRIPTION:In his talk\, "Everyone Can Change the World\," young social entrepreneur Mateo Salvatto guides us through his journey from an average high school student to one of Argentina's most respected tech entrepreneurs.Mateo takes us from laughter to tears\, showing us how his projects (with their successes and failures) can help empower more than 500\,000 people with disabilities worldwide\, and convinces us that changing the world is much easier than we think.\n\nSpeakers: Mateo Salvatto
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:684a35cc-dd6a-41a6-9468-ecef35a9e76e@incmty2026
+DTSTART:20260318T212000Z
+DTEND:20260318T220000Z
+SUMMARY:The new capitals of entrepreneurship
+DESCRIPTION:Entrepreneurship no longer happens only in major global hubs. In Mexico\, a new generation of cities is demonstrating that it's possible to build ecosystems capable of generating global startups\, attracting investment\, and transforming regional economies.In this panel\, leaders in entrepreneurship\, technology\, and venture capital will share how communities are being created in Querétaro\, Hermosillo\, Puebla\, Chihuahua\, and Aguascalientes that connect talent\, capital\, universities\, and corporations to drive impactful innovation. A conversation about what it takes for more regions to become the new entrepreneurial capitals.\n\nSpeakers: Luis Almanza\, Sergio Almaguer\, Ricardo Celaya\, Fernando Vera\, Josue Delgado
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:1720aa6b-5290-48d2-8bbe-6fe42750db6d@incmty2026
+DTSTART:20260318T213000Z
+DTEND:20260319T000000Z
+SUMMARY:Founder & Investor Collision
+DESCRIPTION:This event will bring together investors from Texas\, Silicon Valley\, New York and Mexico\, with Mexican startups and scaleups to highlight investment opportunities.
+LOCATION:TEC | (EXPEDITION FEMSA - BUSINESS INTELIGENCE)
+END:VEVENT
+BEGIN:VEVENT
+UID:619c2ae8-58fd-436c-bc0c-321f0264d680@incmty2026
+DTSTART:20260318T213000Z
+DTEND:20260318T221000Z
+SUMMARY:Why is it important for universities to foster entrepreneurship?
+DESCRIPTION:The conference "Why is it important for universities to foster entrepreneurship?" addresses the key role of higher education institutions in training students capable of creating innovative solutions and generating value for society. Throughout the talk\, it analyzes how universities can promote an entrepreneurial mindset\, strengthen skills such as leadership and problem-solving\, and facilitate the connection between academic knowledge\, applied research\, and market needs. In addition\, it highlights strategies\, programs\, and examples\, such as the Monterrey Innovation District\, which demonstrate how entrepreneurship and innovation contribute to economic development\, job creation\, urban transformation\, and social innovation.\n\nSpeakers: Mario Adrian Flores
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:8c990b90-3c0b-4928-81d4-73d9cbd84a03@incmty2026
+DTSTART:20260318T214000Z
+DTEND:20260318T220000Z
+SUMMARY:Building Industry 4.0: The new gap is not digital\, it's a talent gap
+DESCRIPTION:We will share some of the findings of the study "IT Force: Developing a skills strategy for the ICT industry in Nuevo León to pivot towards Industry 4.0".\n\nSpeakers: Angeles Vela
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:39f4c94f-2e1f-453d-bc04-de13ba5c570d@incmty2026
+DTSTART:20260318T220000Z
+DTEND:20260318T222000Z
+SUMMARY:It's not about choosing: It's about redesigning: economic autonomy and female leadership
+DESCRIPTION:Discover the new economic and female leadership perspective\n\nSpeakers: Sabrina Ortiz Martinez
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:8a8d011b-cbbb-4116-8cea-f457948d6cab@incmty2026
+DTSTART:20260318T220000Z
+DTEND:20260318T223000Z
+SUMMARY:Insight
+DESCRIPTION:Here and Now: Training AttentionA 25-minute in-person practice\, based on the Healthy Minds program and developed by the Tecmilenio Institute of Purpose and Integral Wellbeing\, that invites you to pause the daily rhythm and train mindfulness through guided breathing exercises and awareness of the present moment.\n\nSpeakers: Rosalinda Ballesteros
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:6bcd5e0c-9455-47bb-95b9-52b18945d75f@incmty2026
+DTSTART:20260318T220000Z
+DTEND:20260318T223000Z
+SUMMARY:CASA EXATEC: The Power of Our Network: Building a Global EXATEC Brand Starts with You.
+DESCRIPTION:EXATEC Exclusive. A conversation on the role and responsibility of the EXATEC community in the global positioning of Tecnológico de Monterrey.\n\nSpeakers: Jorge Paz-Soldan
+LOCATION:TEC | CASA EXATEC | (TEC LOUNGE)
+END:VEVENT
+BEGIN:VEVENT
+UID:5c3af83b-ae6c-4d4d-953b-d3ebec96c7e1@incmty2026
+DTSTART:20260318T220000Z
+DTEND:20260319T000000Z
+SUMMARY:Connecting Valley: The Challenges of Building Communities
+DESCRIPTION:Building a community is not difficult. What’s difficult is making it last.In innovation ecosystems\, many of the people involved are leaders: founders\, executives\, builders—individuals used to making decisions\, holding the microphone\, and leading. The challenge is getting many ‘alphas’ to coexist\, set aside their egos\, and truly collaborate.In this roundtable\, we will discuss what is rarely said about building communities:How to create spaces where the spotlight is sharedHow to transform networking into real collaborationAnd how to ensure a community not only grows\, but enduresBecause building a community is not about volume.It’s about trust\, collaboration\, and shared purpose.
+LOCATION:TEC | (EXPEDITION FEMSA - VENTURE CAFE)
+END:VEVENT
+BEGIN:VEVENT
+UID:de0a46fe-ec42-4e6e-8cd6-73d28cac3446@incmty2026
+DTSTART:20260318T221000Z
+DTEND:20260318T223000Z
+SUMMARY:Hacking the organization Innovation\, resistance and leadership from IT
+DESCRIPTION:Conference on Innovation\, Resilience and Leadership from IT\n\nSpeakers: Javier Guzmán
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:69a06ce4-20f5-486d-a44d-53727a70a2d3@incmty2026
+DTSTART:20260318T221000Z
+DTEND:20260318T223000Z
+SUMMARY:VC Talk: How to Secure Investment for Your Startup in 2026
+DESCRIPTION:Talk with Practical Advice from a VC/Angel Investor on How and Where to Raise Capital for a Startup in 2026\n\nSpeakers: Mario García
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:8b34af9c-9c0b-4870-9441-93e1a4df2f2e@incmty2026
+DTSTART:20260318T222000Z
+DTEND:20260318T230000Z
+SUMMARY:Women in Technology Panel
+DESCRIPTION:Discover 4 approaches of women leaders in technology\n\nSpeakers: Ana Cecilia Mata\, Anne-Sophie Mertgen\, Fátima Blancas\, Melisa Cuevas
+LOCATION:TEC | INSPIRE STAGE | (RECTORIA - SALA MAYOR)
+END:VEVENT
+BEGIN:VEVENT
+UID:9d40941f-ac7c-43da-ba20-9e0c0c6fbc5f@incmty2026
+DTSTART:20260318T222000Z
+DTEND:20260318T230000Z
+SUMMARY:Brewing Success: Lessons from Starbucks' Early Days
+DESCRIPTION:In this exclusive session\, Starbucks co-founder Zev Siegel joins Jose Manuel Aguirre for a journey back to the roots of one of the world’s most influential brands.Beyond the lattes and logos\, this conversation dives into the "strategic gossip" of the early days: from funding challenges and choosing the right name\, to the obsession with quality that defined their DNA. Zev will share critical lessons on execution and resilience learned long before the brand became a household name.\n\nSpeakers: Zev Siegl\, José Manuel  Aguirre
+LOCATION:TEC | TELCEL 5G STAGE | (CENTRO DE CONGRESOS - SALA 1 Y 2)
+END:VEVENT
+BEGIN:VEVENT
+UID:2f7ff673-4b4d-4d8c-8b17-8c2cc2b7ffdd@incmty2026
+DTSTART:20260318T223000Z
+DTEND:20260318T225000Z
+SUMMARY:Building the Bridge: How AI Infrastructure Unlocks the Japan–US–Mexico Ecosystem
+DESCRIPTION:On March 16\, Mexico and the U.S. begin a high-stakes review of the T-MEC trade agreement. While the experts talk about complex rules and tariffs\, the real challenge for business owners is simpler: How do you prove your product is Made in North America without drowning in paperwork?For manufacturers in the Japan-US-Mexico corridor\, staying compliant with tax authorities like the SAT is becoming a digital-first battle. This session explores how AI is building a digital bridge that automates the proof-of-origin process. We will discuss how this AI-native verification layer doesn't just satisfy government auditors—it helps SMBs get paid faster. Join us to discover how AI is moving beyond the hype to solve the 90-day payment cycle and build a supply chain where small businesses can finally compete on a global scale.El 16 de marzo\, México y Estados Unidos inician una revisión crucial del acuerdo comercial T-MEC. Mientras los expertos hablan de reglas complejas y aranceles\, el verdadero reto para los dueños de empresas es más simple: ¿Cómo demuestras que tu producto está Hecho en Norteamérica sin ahogarte en el papeleo?Para los fabricantes en el corredor Japón-EE. UU.-México\, cumplir con las autoridades fiscales como el SAT se está convirtiendo en una batalla totalmente digital. Esta sesión explora cómo la IA está construyendo un puente digital que automatiza el proceso de certificación de origen. Analizaremos cómo esta capa de verificación nativa de IA no solo satisface a los auditores gubernamentales\, sino que ayuda a las PyMEs a cobrar más rápido. Acompáñanos para descubrir cómo la IA va más allá del entusiasmo mediático para resolver el ciclo de pago de 90 días y construir una cadena de suministro donde las pequeñas empresas finalmente puedan competir a escala global.\n\nSpeakers: Nishant Dixit
+LOCATION:TEC | CREATE WORKSHOPS | (BIBLIOTECA - SALA POEMA & DIALOGO)
+END:VEVENT
+BEGIN:VEVENT
+UID:7bf0f2e7-d0e3-4e1b-a9a9-eca1076605b1@incmty2026
+DTSTART:20260318T224000Z
+DTEND:20260318T230000Z
+SUMMARY:Unstoppable ventures: when youth and experience come together
+DESCRIPTION:Does success in entrepreneurship have a birth date? The short answer is no. The real answer is that success favors the mix.In a world that tells us we must choose between the speed of youth and the security of experience\, we propose something bolder: the union of both. This is not just a talk about business\; it is the meeting point where disruptive ideas find the method to become reality.Why should you be here?If you’re young and driven: Discover how the seasoned “edge” and network of someone more experienced can save you years of costly mistakes and accelerate your path to market.If you bring experience and a proven track record: Reconnect with cutting-edge innovation and discover how your expertise is the fuel new business models need to scale with strength and stability.For everyone: You’ll learn why intergenerational teams are\, statistically\, the most resilient and profitable in today’s ecosystem.Don’t come just to listen\; come to find the missing piece of your next great project.\n\nSpeakers: Luis Garza Hoth\, Rolando Jose Porchini Cano
+LOCATION:TEC | INNOVATION WORKSHOP | (EXPEDITION FEMSA - SALA POLIVALENTE)
+END:VEVENT
+BEGIN:VEVENT
+UID:7afc2c91-411a-4f60-9fec-4862aa52defd@incmty2026
+DTSTART:20260318T224000Z
+DTEND:20260318T230000Z
+SUMMARY:What They Don’t Teach You at University: From Engineer to Leader of Leaders
+DESCRIPTION:What separates those who accelerate their careers from those who simply follow the path? In this talk\, Ryan Poskitt shares lessons from his journey from engineer to leader of leaders in a global organization. Through personal experiences\, he explores how to define a clear career vision\, turn ideas into action\, and develop the skills companies value most — including communication\, collaboration\, and leadership. A practical and inspiring conversation for participants looking to stand out in an increasingly competitive professional environment.\n\nSpeakers: Ryan Poskitt
+LOCATION:TEC | BOLD VISION | (EXPEDITION FEMSA - AUDITORIO)
+END:VEVENT
+BEGIN:VEVENT
+UID:d6cc40a1-d5ee-48ad-a000-543accfa5f62@incmty2026
+DTSTART:20260318T230000Z
+DTEND:20260318T233000Z
+SUMMARY:Purpose
+DESCRIPTION:Here and Now: Training AttentionA 25-minute in-person practice\, based on the Healthy Minds program and developed by the Tecmilenio Institute of Purpose and Integral Wellbeing\, that invites you to pause the daily rhythm and train mindfulness through guided breathing exercises and awareness of the present moment.\n\nSpeakers: Epifanio Sánchez
+LOCATION:TEC | (ESPACIO DE REFLEXION)
+END:VEVENT
+BEGIN:VEVENT
+UID:10a707c1-04fe-4c06-ae5e-f61c64c01b01@incmty2026
+DTSTART:20260318T230000Z
+DTEND:20260319T000000Z
+SUMMARY:CASA EXATEC: EXATEC Networking — “EXATEC Association of Women Entrepreneurs and Executives”
+DESCRIPTION:Exclusive for EXATEC: Interact with members of the EXATEC Women Entrepreneurs and Executives Association\, learn about its benefits\, and invite alumni to expand their networking circles and strengthen their professional development.\n\nSpeakers: María Alicia Gorena García
+LOCATION:TEC | CASA EXATEC | (TEC LOUNGE)
+END:VEVENT
+BEGIN:VEVENT
+UID:3356294b-1ac8-4c1f-b6f5-24f4ad794cb0@incmty2026
+DTSTART:20260318T230000Z
+DTEND:20260319T010000Z
+SUMMARY:Digitalize and Sell with AI by Lovable Vibecoding Hackathon
+DESCRIPTION:A 2-hour hands-on workshop designed for entrepreneurs\, students\, and small to medium-sized businesses looking to modernize and scale their operations using Artificial Intelligence and e-commerce tools. During the session\, participants will receive an introduction to the world of Lovable and learn how to automate processes\, easily implement e-commerce solutions\, improve sales and operational efficiency\, and use accessible digital tools without the need for advanced technical knowledge. The approach is 100% practical and focused on immediate results.\n\nSpeakers: Fernando Obregon
+LOCATION:Coworking Space | TEC (Centrales Norte)
+END:VEVENT
+BEGIN:VEVENT
+UID:6eb6a05a-1de2-4d91-bf5c-be087a320354@incmty2026
+DTSTART:20260319T000000Z
+DTEND:20260319T020000Z
+SUMMARY:Happy Hour by Digital Hub Mty
+DESCRIPTION:This space will be a Happy Hour by Digital Hub Mty\, an informal gathering designed to connect corporate leaders\, startups\, and key players from the innovation ecosystem in a relaxed and open environment for conversation. During two hours\, attendees will be able to exchange ideas\, share experiences\, and explore potential collaborations outside the traditional context of formal meetings.The objective of this gathering is to foster genuine connections\, strengthen relationships across ecosystems\, and generate new collaboration opportunities\, all within a comfortable and social setting that encourages participants to enjoy\, converse\, and naturally expand their professional network.The event will take place on March 19 from 6:00 to 8:00 PM\, organized by Digital Hub Monterrey\, and will be held at Matthew restaurant\, near Tecnológico de Monterrey.
+LOCATION:TEC | EXPEDITION FEMSA - MATHEW
+END:VEVENT
+BEGIN:VEVENT
+UID:b4dd0f88-6a04-49d3-a22c-df7520b863d6@incmty2026
+DTSTART:20260319T003000Z
+DTEND:20260319T040000Z
+SUMMARY:Cocktail Networking Empresarios Jóvenes COPARMEX
+DESCRIPTION:Como parte de la agenda de INC Monterrey\, Empresarios Jóvenes COPARMEX Nacional y COPARMEX Nuevo León te invitan a un cóctel de networking en el Club Industrial MTY\, un espacio para conectar con líderes\, emprendedores y participantes del festival.El aforo es limitado\, por lo que se dará prioridad a las primeras personas en llegar.Código de vestimenta obligatorio: traje formal. Únicamente se permitirá el acceso a personas que asistan en traje (saco y pantalón de vestir). No se permitirá la entrada con vestimenta casual.Liga de registro: https://forms.gle/834D8E9AhAEVM4xNA\n\nSpeakers: Empresarios Jóvenes COPARMEX Nacional y  COPARMEX  Nuevo León
+LOCATION:Club Industrial | Av. Parte Aguas 698\, Los Arcángeles\, Zona Loma Larga Poniente\, 66266 San Pedro Garza García\, N.L.
+END:VEVENT
+BEGIN:VEVENT
+UID:11b394a6-8d85-4d4f-8ea3-e17097dcd470@incmty2026
+DTSTART:20260319T010000Z
+DTEND:20260319T050000Z
+SUMMARY:Connecting Valleys: Networking Party
+DESCRIPTION:Tener un ecosistema solido requiere de Unión\, y en incMTY reuniremos por 2nda. vez en un mismo lugar a las organizaciones mas activas de Todo México!Cabrito Valley (Monterrey)Coahuila Valley (Saltillo)Machaca Valley(Chihuahua)San Marcos Valley (Aguascalientes)Azteca Valley (CDMX)Cochinita Valley (Mérida)Agave Valley (Guadalajara)Gallo Valley (Querétaro)
+LOCATION:Metapatio | Melchor Ocampo 222A\, Centro\, 64000 Monterrey\, N.L.
+END:VEVENT
+BEGIN:VEVENT
+UID:2a326bd7-7849-450d-ac81-24f631f10cc2@incmty2026
+DTSTART:20260319T150000Z
+DTEND:20260319T155000Z
+SUMMARY:Coffee with Japan: Executive Conversation with SUMITOMO
+DESCRIPTION:The panel aims to share how automation and industrial process control strengthen operational efficiency and business competitiveness\, providing SMEs with a clear vision of how to evolve toward more sophisticated industrial standards.  Focusing on automation as an industrial competitiveness strategy. Impact of operational efficiency on quality\, productivity\, and global positioning. Organizational discipline and continuous improvement as the foundation of industrial performance. Opportunities for SMEs to integrate into more technologically advanced value chains. A vision for the future of industrial development in Mexico.\n\nSpeakers: Eugenio José Reyes Guzmán\, Gustavo Rodriguez\, Gustavo Rodríguez
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN SALA EMBAJADORES)
+END:VEVENT
+BEGIN:VEVENT
+UID:fd734725-91eb-4167-9463-8cd2a1ee0665@incmty2026
+DTSTART:20260319T150000Z
+DTEND:20260319T230000Z
+SUMMARY:Coffee UANL with Japan
+DESCRIPTION:A unique event where Mexican SMEs connect with the Japanese ecosystem. This special gathering will bring together institutions\, companies\, and key leaders who are strengthening and transforming the relationship between both countries. Participants will take part in activities designed to inspire and foster new opportunities for collaboration.This event is part of the incMTY Festival\, and all participants registered for the Café will receive a discount code to attend the Festival\, which will take place the same day and at the same venue\, allowing attendees to experience both events.The event will take place on Thursday\, March 19\, from 9:00 AM to 5:00 PM at the Centro de Internacionalización\, UANL Ciudad Universitaria.\n\nSpeakers: Eugenio José Reyes Guzmán\, Jose Luis Tobías Osorio \, Mario del Valle
+LOCATION:Centro de internacionalización | UANL Ciudad Universitaria
+END:VEVENT
+BEGIN:VEVENT
+UID:d2e19052-2313-47ef-bbda-8823e33cfde9@incmty2026
+DTSTART:20260319T150000Z
+DTEND:20260319T160000Z
+SUMMARY:Startup Mexico
+DESCRIPTION:Program Information\n\nSpeakers: Jose Manuel Serrano Resendiz
+LOCATION:UANL | STAND STARTUP MÉXICO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:5ee53f76-bb7d-4700-ae54-6aa394fc44b9@incmty2026
+DTSTART:20260319T150000Z
+DTEND:20260319T180000Z
+SUMMARY:Import and export logistics
+DESCRIPTION:Learn how to connect your project with the world. This mentorship offers strategic insight into global supply chains\, customs regulations\, and the key steps to move goods efficiently and legally across borders\n\nSpeakers: María del Carmen Rosales Gámez
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:eb340a25-f977-4da4-946a-d71f6caa1f35@incmty2026
+DTSTART:20260319T150000Z
+DTEND:20260319T190000Z
+SUMMARY:Digital tools
+DESCRIPTION:Optimize your workflow and the management of your business. Cloud productivity\, organization\, and collaboration platforms that enable young teams to operate with the agility of a large enterprise will be explored.\n\nSpeakers: Jose Manuel Serrano Resendiz\, Iris Abril Martínez Salazar
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:384886af-61f4-4bc8-a58a-b910441873ed@incmty2026
+DTSTART:20260319T150000Z
+DTEND:20260319T160000Z
+SUMMARY:Digital marketing to boost your entrepreneurship
+DESCRIPTION:You will learn to master the essential digital tools so that your business stops being invisible and starts selling. From creating strategic content to managing advertising guidelines\, we'll guide you step-by-step to connect with your ideal audience and convert clicks into real customers.\n\nSpeakers: Claudia Carolina Castillo Cantú
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:e83823cd-f37b-487b-a0d0-3ac219ed620d@incmty2026
+DTSTART:20260319T155000Z
+DTEND:20260319T164000Z
+SUMMARY:Coffee with Japan - Ikigai: Japanese philosophy as a way of life
+DESCRIPTION:The objective will be to explore how the Japanese philosophy of Ikigai can be practically applied in SMEs to strengthen their business purpose\, improve decision-making\, boost organizational resilience\, and generate sustainable value for their teams and their market.  Focusing on translating the concept of Ikigai from the philosophical to the business and actionable\, showcasing institutional\, cultural\, and cooperative experiences between Mexico and Japan.\n\nSpeakers: Jose Luis Tobías Osorio \, Mario del Valle\, Shinji Hirai\, Jose Luis Tobias Osorio\, Mario Del Valle\, Takashi Kawano
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN  SALA EMBAJADORES)
+END:VEVENT
+BEGIN:VEVENT
+UID:7a6b5988-5996-4e44-93dc-3c85a8a75292@incmty2026
+DTSTART:20260319T160000Z
+DTEND:20260319T164000Z
+SUMMARY:Business Keynote Conference
+DESCRIPTION:This keynote conference will analyze the dynamics of the business world\, offering strategic perspectives on innovation\, leadership\, and competitiveness to drive sustainable growth in global markets.\n\nSpeakers: Moris Dieck
+LOCATION:UANL | MAIN STAGE | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  EXPLANADA CEDE)
+END:VEVENT
+BEGIN:VEVENT
+UID:9a90719e-d9d0-4090-986c-6cc737d006f4@incmty2026
+DTSTART:20260319T160000Z
+DTEND:20260319T170000Z
+SUMMARY:The Art of Pitching
+DESCRIPTION:Personalized Mentorship\n\nSpeakers: Ximena De Alba
+LOCATION:UANL | STAND STARTUP MÉXICO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:14120d35-331b-424d-8ba6-fd8fefa51740@incmty2026
+DTSTART:20260319T160000Z
+DTEND:20260319T180000Z
+SUMMARY:Communicate like a pro
+DESCRIPTION:Master the art of persuasion and clarity. This session focuses on the development of assertive communication skills\, body language\, and public speaking techniques to project security to investors\, partners\, and clients.\n\nSpeakers: Alma Elena Gutiérrez Leyton
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:0932b9a5-36e9-4abe-9c73-19ec9ab7ddad@incmty2026
+DTSTART:20260319T160000Z
+DTEND:20260319T180000Z
+SUMMARY:Entrepreneurship with the Gaze: The Art of Detecting Real Needs and Multidisciplinary Work
+DESCRIPTION:Success begins with keen observation. In this mentoring you will learn to identify latent problems in the market and to solve them through collaboration between different areas of knowledge\, bringing together diverse talents to create comprehensive solutions.\n\nSpeakers: Flor Araceli García Castillo
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:987b7bae-3655-4c9a-baee-2f4e5fef6fb4@incmty2026
+DTSTART:20260319T160000Z
+DTEND:20260319T180000Z
+SUMMARY:Entrepreneurship with the Gaze: The Art of Detecting Real Needs and Multidisciplinary Work
+DESCRIPTION:Success begins with keen observation. In this mentoring you will learn to identify latent problems in the market and to solve them through collaboration between different areas of knowledge\, bringing together diverse talents to create comprehensive solutions.\n\nSpeakers: Guadalupe Maribel Hernández Muñoz
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:2b0b915b-a836-48c0-b48e-da4c4a3452d2@incmty2026
+DTSTART:20260319T160000Z
+DTEND:20260319T190000Z
+SUMMARY:MKT Digital
+DESCRIPTION:Build a strong presence in the online environment. Positioning strategies\, audience segmentation and creation of valuable content will be addressed to convert followers into an active community and loyal customers.\n\nSpeakers: Claudia Carolina Castillo Cantú
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:e7b27475-4856-41c0-9ce9-32d1e3eab7a1@incmty2026
+DTSTART:20260319T165000Z
+DTEND:20260319T173000Z
+SUMMARY:Open Innovation: Why Do Corporations Need Scientists?
+DESCRIPTION:A panel that explores how open innovation bridges corporations and scientists\, highlighting the value of collaboration to drive discoveries\, accelerate technological development\, and create sustainable competitive advantages.\n\nSpeakers: Aurelio Rico\, Jesus Ortiz de la Fuente
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN  SALA EMBAJADORES)
+END:VEVENT
+BEGIN:VEVENT
+UID:361e8c94-dfe9-4646-9f25-0a074c60488d@incmty2026
+DTSTART:20260319T165000Z
+DTEND:20260319T173000Z
+SUMMARY:University Spin-offs: The Critical Path from Lab to Market
+DESCRIPTION:A panel that examines the journey of university spin-offs\, highlighting how academic research evolves into applied innovation and business models that impact industry and society.\n\nSpeakers: Mario Buenrostro Perdomo\, Joel Cano Gonzalez
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN  SALA CANCILLERES)
+END:VEVENT
+BEGIN:VEVENT
+UID:73d0e9b2-a5d1-4c55-90f5-db68958c8b98@incmty2026
+DTSTART:20260319T165000Z
+DTEND:20260319T173000Z
+SUMMARY:In Search of Value: How to Identify Opportunities?
+DESCRIPTION:A panel that explores how to identify high‑value opportunities in dynamic markets\, analyzing strategies for evaluation\, decision‑making\, and building competitive advantages.\n\nSpeakers: Jorge "Coco" Egusquiza\, Ángela Suárez Jacobo
+LOCATION:UANL | MAIN STAGE | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  EXPLANADA CEDE)
+END:VEVENT
+BEGIN:VEVENT
+UID:bdea7d23-b8c0-4f4e-8ae5-540003994a8d@incmty2026
+DTSTART:20260319T170000Z
+DTEND:20260319T183000Z
+SUMMARY:The Growth Trap: Why Some Successful Startups End Up Failing
+DESCRIPTION:The workshop teaches that accelerated growth without a solid foundation is a critical trap\, exposing how premature scaling and vanity metrics deplete resources and fracture a startup's structure before it can become truly sustainable.\n\nSpeakers: Héctor Rivera
+LOCATION:UANL | INNOVATION STAGE | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  iOS DEVELOPMENT LAB)
+END:VEVENT
+BEGIN:VEVENT
+UID:d517f0b8-5df5-45ff-8fa4-f21372b2bca3@incmty2026
+DTSTART:20260319T170000Z
+DTEND:20260319T180000Z
+SUMMARY:Design Thinking for Business Innovation
+DESCRIPTION:Personalized Mentorship\n\nSpeakers: Aris Jiménez
+LOCATION:UANL | STAND STARTUP MÉXICO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:09b54fa1-780f-46f2-b604-a207ed0e7691@incmty2026
+DTSTART:20260319T170000Z
+DTEND:20260319T180000Z
+SUMMARY:Undertaking in Formality\, a POSITIVE Relationship with the SAT
+DESCRIPTION:Entrepreneurship in formality does not have to be a nightmare. In this space\, we will transform your perspective on the SAT\, teaching you how to fulfill your obligations in a simple and strategic way. Discover how staying current opens doors to better credit\, corporate clients\, and the peace of mind that comes with knowing your wealth is protected.\n\nSpeakers: Irasema C. Rojas Zavala
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:f307f22b-6dba-4cd4-a524-d6e601cfe40c@incmty2026
+DTSTART:20260319T174000Z
+DTEND:20260319T183000Z
+SUMMARY:The Frontier of Technological Innovation: What's Next After Generative AI?
+DESCRIPTION:A conference that examines how open innovation and collaboration between corporations and experts drive technological development\, strengthen competitiveness\, and deliver high‑impact solutions in a rapidly changing global environment.\n\nSpeakers: Juan Montalvo Godina
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN  SALA EMBAJADORES)
+END:VEVENT
+BEGIN:VEVENT
+UID:a88c7d93-8b59-40b6-b45a-800e0e6ffebc@incmty2026
+DTSTART:20260319T174000Z
+DTEND:20260319T182000Z
+SUMMARY:Entrepreneurship in the Age of AI
+DESCRIPTION:A conference that examines how artificial intelligence is transforming entrepreneurship\, offering new business opportunities\, innovative models\, and tools to drive projects in a digital environment.\n\nSpeakers: Jose Manuel Serrano Resendiz
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN  SALA CANCILLERES)
+END:VEVENT
+BEGIN:VEVENT
+UID:fdd4489b-0fb5-49da-bbf6-683411c73c0c@incmty2026
+DTSTART:20260319T174000Z
+DTEND:20260319T182000Z
+SUMMARY:How to raise capital for projects
+DESCRIPTION:A conference that provides strategies and tools to secure funding\, exploring investment options\, project preparation\, and key approaches to attract capital that drives business growth.\n\nSpeakers: Teresa De León Zamora
+LOCATION:UANL | MAIN STAGE | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  EXPLANADA CEDE)
+END:VEVENT
+BEGIN:VEVENT
+UID:a1af2d7a-e1f5-4c13-a0b5-a53ea62efb63@incmty2026
+DTSTART:20260319T180000Z
+DTEND:20260319T190000Z
+SUMMARY:Disruptive Resilience: from self-employment to building a real company.
+DESCRIPTION:Personalized Mentorship\n\nSpeakers: Edwin Pantoja
+LOCATION:UANL | STAND STARTUP MÉXICO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:72cafb83-88d8-45d7-b10b-06260d2bf2ea@incmty2026
+DTSTART:20260319T183000Z
+DTEND:20260319T191000Z
+SUMMARY:Innovation Portfolio Management: Maximizing Technological ROI
+DESCRIPTION:A panel that explores how to manage innovation portfolios to maximize technological ROI\, analyzing strategies for evaluation\, prioritization\, and scaling of disruptive projects.\n\nSpeakers: Jorge Ontiveros\, Raschid Mohamed Sánchez\, Eugenio Del Hoyo Menchaca\, Nasser Mohamed Noriega
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN  SALA CANCILLERES)
+END:VEVENT
+BEGIN:VEVENT
+UID:087ced7e-a15e-4068-927a-e37d5db54ffa@incmty2026
+DTSTART:20260319T183000Z
+DTEND:20260319T191000Z
+SUMMARY:Technological Sovereignty: The Role of Universities in Industrial Autonomy.
+DESCRIPTION:A panel that examines how universities strengthen technological sovereignty and industrial autonomy through research\, innovation\, and talent development\, driving the strategic growth of key sectors.\n\nSpeakers: Silvia Patricia Mora Castro\, Ricardo Juárez Arcos
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN  SALA EMBAJADORES)
+END:VEVENT
+BEGIN:VEVENT
+UID:b8c80c8f-d61c-4307-aafc-e19af6edf262@incmty2026
+DTSTART:20260319T183000Z
+DTEND:20260319T191000Z
+SUMMARY:Epigenetics in Business. The Role of the Entrepreneurial Ecosystem.
+DESCRIPTION:A panel that explores how the entrepreneurial ecosystem shapes the evolution and adaptation of businesses\, highlighting dynamics that drive resilience\, innovation\, and growth potential.\n\nSpeakers: Nicolás Remedi
+LOCATION:UANL | MAIN STAGE | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  EXPLANADA CEDE)
+END:VEVENT
+BEGIN:VEVENT
+UID:b1ac382c-9ebb-46e7-9cc2-d3af5548e752@incmty2026
+DTSTART:20260319T183000Z
+DTEND:20260319T203000Z
+SUMMARY:Strategy Narrative Lab: The Power of story in business by Fuckup Nights
+DESCRIPTION:Strategic Narrative Lab: The Power of Story in Business is an interactive workshop that brings together various contemporary storytelling methodologies used in marketing\, digital content\, technology\, innovation\, and leadership. For two hours\, participants share practical approaches to building stories that resonate with people\, search engines\, and artificial intelligence alike.  The experience connects three dimensions of modern storytelling: (1) narratives for short\, high-impact content\, (2) narratives driven by data and search architecture\, and (3) leadership and learning narratives that can be transformed into memorable TED Talk-style messages. The goal is not to discuss storytelling as an abstract concept\, but to demonstrate how it translates into positioning\, engagement\, authority\, and business growth.\n\nSpeakers: Rubendario Carrero Barroso\, Hazael Misraim L.\, Guillermo Martinez\, Samara Cruz\, Carolina Tovar
+LOCATION:UANL | INNOVATION STAGE | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  iOS DEVELOPMENT LAB)
+END:VEVENT
+BEGIN:VEVENT
+UID:dd195c62-fbd0-4ed5-a863-7d48acfdb3cd@incmty2026
+DTSTART:20260319T190000Z
+DTEND:20260319T200000Z
+SUMMARY:Keys to differentiate yourself and create your brand
+DESCRIPTION:Personalized Mentorship\n\nSpeakers: Renate Lozano
+LOCATION:UANL | STAND STARTUP MÉXICO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:86cdeb0f-63a9-4fb0-aa2e-ae8386df29c4@incmty2026
+DTSTART:20260319T190000Z
+DTEND:20260319T210000Z
+SUMMARY:MKT Digital/AI/TECH
+DESCRIPTION:Take marketing to the next level using cutting-edge technology. Discover how Artificial Intelligence and new technological tools can automate processes\, analyze data\, and personalize the user experience at scale.\n\nSpeakers: Cristhela Denisse Chávez Reyes
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:02c999ed-b5ec-484b-837e-a3bfa2d8cf45@incmty2026
+DTSTART:20260319T190000Z
+DTEND:20260319T210000Z
+SUMMARY:Entrepreneurship
+DESCRIPTION:A comprehensive guide to the fundamentals of bringing an idea to life. From business model validation to entrepreneurial resilience\, this mentorship lays the foundation needed to transform a vision into a scalable startup.\n\nSpeakers: Marisol González Delgado
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:ea651781-e66d-4696-9696-5e625888a499@incmty2026
+DTSTART:20260319T190000Z
+DTEND:20260319T200000Z
+SUMMARY:How to make digital tools your allies
+DESCRIPTION:We will explore practical tools for communication\, design and project management that will enhance your creativity and professionalism. You will learn to lose your fear of the new and to integrate digital solutions that adapt to your pace of life\, not the other way around.\n\nSpeakers: Iris Abril Martínez Salazar
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:d068baa4-df69-453e-8261-1c533f1d98a9@incmty2026
+DTSTART:20260319T195000Z
+DTEND:20260319T203000Z
+SUMMARY:Keynote Conference: The Present Technological Revolution: An Argument for a New Philosophy of the Country
+DESCRIPTION:This keynote conference highlights the most innovative trends in technology\, showcasing how artificial intelligence\, global connectivity\, and digital transformation are reshaping the future of business and society.\n\nSpeakers: Francisco Lobo de la Garza
+LOCATION:UANL | MAIN STAGE | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  EXPLANADA CEDE)
+END:VEVENT
+BEGIN:VEVENT
+UID:a9c3a024-3f82-41ac-af5a-3dbb07bc843f@incmty2026
+DTSTART:20260319T200000Z
+DTEND:20260319T210000Z
+SUMMARY:How to turn technology into real business
+DESCRIPTION:Personalized Mentorship\n\nSpeakers: Jorge Díaz
+LOCATION:UANL | STAND STARTUP MÉXICO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:848993c5-77cf-4f5c-ad72-aa093445811a@incmty2026
+DTSTART:20260319T204000Z
+DTEND:20260319T212000Z
+SUMMARY:Innovation Metrics: How to Measure the Success of Technological Development?
+DESCRIPTION:A panel that explores key metrics to assess innovation and technological development\, analyzing how to measure impact\, outcomes\, and success in business and academic environments.\n\nSpeakers: Jaime Parada Ávila\, Juan Agustín Arroyo Caballero\, Raúl Eduardo Rhon Durán\, Nasser Mohamed Noriega
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN  SALA EMBAJADORES)
+END:VEVENT
+BEGIN:VEVENT
+UID:6724cb7e-2898-472e-aeef-818d7f251576@incmty2026
+DTSTART:20260319T204000Z
+DTEND:20260319T212000Z
+SUMMARY:Venture Capital vs. Bootstrapping: The Financing Dilemma.
+DESCRIPTION:A panel that examines the advantages and challenges of funding startups through venture capital or bootstrapping\, exploring how each model impacts growth\, autonomy\, and business sustainability.\n\nSpeakers: Marcelo De la Garza
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN  SALA CANCILLERES)
+END:VEVENT
+BEGIN:VEVENT
+UID:e6633e8d-5a38-4154-ab9c-6ac451c1b05b@incmty2026
+DTSTART:20260319T204000Z
+DTEND:20260319T212000Z
+SUMMARY:The Entrepreneurial Gene: Transforming Traditional Corporate Culture
+DESCRIPTION:A panel that explores how the entrepreneurial spirit can transform traditional corporate culture\, driving innovation\, agility\, and new approaches to leadership within organizations.
+LOCATION:UANL | MAIN STAGE | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  EXPLANADA CEDE)
+END:VEVENT
+BEGIN:VEVENT
+UID:716607cb-6b29-4ca9-8ec5-d1a22dc6c975@incmty2026
+DTSTART:20260319T210000Z
+DTEND:20260319T223000Z
+SUMMARY:Introduction to Intellectual Property with Kanna
+DESCRIPTION:This workshop aims to share with the community the benefits of Intellectual Property by granting workshop attendees the benefit of obtaining a free license to use the tool.\n\nSpeakers: Iñaki Palestino Díaz
+LOCATION:UANL | CREATE STAGE | (CENTRO DE INTERNACIONALIZACIÓN  AULA 1)
+END:VEVENT
+BEGIN:VEVENT
+UID:93dc8f78-f27f-479e-8032-659747108645@incmty2026
+DTSTART:20260319T210000Z
+DTEND:20260319T220000Z
+SUMMARY:How to explain your venture in a clear\, strategic and memorable way
+DESCRIPTION:Personalized Mentorship\n\nSpeakers: Diana Zavala
+LOCATION:UANL | STAND STARTUP MÉXICO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:3ea1e8df-278d-426f-9028-8c8b78635e70@incmty2026
+DTSTART:20260319T210000Z
+DTEND:20260320T000000Z
+SUMMARY:Robotics and TECH
+DESCRIPTION:Explore the potential of automation and hardware development. This session is designed for entrepreneurs looking to integrate robotic solutions or complex technological developments into their business models\, encouraging technical innovation\n\nSpeakers: Griselda Quiróz Compean
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:e7d05fff-67e2-4b98-bf14-634e5b6c5b4d@incmty2026
+DTSTART:20260319T210000Z
+DTEND:20260320T000000Z
+SUMMARY:Intellectual Property & Tech
+DESCRIPTION:Protect your ingenuity and your most valuable assets. Learn about the registration processes of trademarks\, patents and copyrights in the technological field\, ensuring that your developments and innovations have the necessary legal support to grow safely.\n\nSpeakers: Patricia del Carmen Zambrano Robledo
+LOCATION:UANL | STAND ZONA SHERO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:bf014388-148c-4004-a3b7-109f400d3c3e@incmty2026
+DTSTART:20260319T213000Z
+DTEND:20260319T221000Z
+SUMMARY:ImpactX: How the best CEOs generate 10X more impact with less drama
+DESCRIPTION:Created by Growth Institute CEO Daniel Marcos\, ImpactX is a methodology designed to help business owners achieve 10x more impact with half the drama by gaining a deep understanding of their business's growth stage and real needs. Through a practical and structured approach\, ImpactX allows businesses to streamline their operations\, align their teams\, strengthen the role of leaders\, and focus efforts on what truly propels the organization to the next level\, transforming chaotic growth into clear and sustainable strategic decisions.\n\nSpeakers: Daniel Marcos
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN  SALA CANCILLERES)
+END:VEVENT
+BEGIN:VEVENT
+UID:3a0c8b8f-8ec3-4aeb-a60a-10abdd3ed0b1@incmty2026
+DTSTART:20260319T213000Z
+DTEND:20260319T221000Z
+SUMMARY:Financing: How to Be a Good Credit Applicant
+DESCRIPTION:A conference that provides key insights on improving creditworthiness\, covering financial strategies\, responsible management\, and factors that determine access to funding.
+LOCATION:UANL | MAIN STAGE | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  EXPLANADA CEDE)
+END:VEVENT
+BEGIN:VEVENT
+UID:4df85d9b-e65b-4391-beb9-e64bb31cf9bf@incmty2026
+DTSTART:20260319T220000Z
+DTEND:20260320T003000Z
+SUMMARY:COPARMEX Young Entrepreneurs National Meeting – Northeast Region
+DESCRIPTION:As part of the INC Monterrey agenda\, COPARMEX National Young Entrepreneurs and COPARMEX Jóvenes Nuevo León will host the Young Entrepreneurs National Meeting – Northeast Region\, a gathering designed for entrepreneurs and business leaders under 35 who are interested in learning about the key topics of the National Commission\, the initiatives driving the Young Entrepreneurs network in Mexico\, and the opportunities for collaboration within the organization.The meeting will feature the participation of a distinguished guest entrepreneur. It will take place at the COPARMEX Nuevo León Business Center.📍 Location: https://maps.app.goo.gl/eDsVaGR2epoB2YhD7Capacity is limited\, so priority will be given to the first attendees to arrive. An ideal space to connect with young entrepreneurs\, share experiences\, and strengthen the region’s young business community.Registration link: https://forms.gle/DMNp5GSTVWkyGN2i9\n\nSpeakers: Empresarios Jóvenes COPARMEX Nacional y  Empresarios Jóvenes COPARMEX Nuevo León
+LOCATION:Centro Empresarial COPARMEX NL |  Av. Cuauhtémoc 757\, Barrio Antiguo\, Centro\, 64000 Monterrey\, N.L.
+END:VEVENT
+BEGIN:VEVENT
+UID:aa0e7773-cbd4-48f8-b95e-b8943278a5ea@incmty2026
+DTSTART:20260319T220000Z
+DTEND:20260319T230000Z
+SUMMARY:Organizational Structure
+DESCRIPTION:Personalized Mentorship\n\nSpeakers: Sebastian Sierra
+LOCATION:UANL | STAND STARTUP MÉXICO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:6735b370-5267-4209-a6dd-92dc8cbd8721@incmty2026
+DTSTART:20260319T222000Z
+DTEND:20260319T230000Z
+SUMMARY:The Hard Thing about Hard Tech: Scars and Realities of Innovating in Science
+DESCRIPTION:A panel that uncovers the challenges and lessons of innovating in science and advanced technology\, sharing real experiences about the difficulties\, risks\, and rewards of driving hard tech toward transformative solutions.\n\nSpeakers: Joel Gutierrez Antonio\, María Cristina Rodríguez Padilla
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN  SALA EMBAJADORES)
+END:VEVENT
+BEGIN:VEVENT
+UID:20410263-2d30-469f-9f71-9e2f464f48e2@incmty2026
+DTSTART:20260319T222000Z
+DTEND:20260319T230000Z
+SUMMARY:Regio Entrepreneurship
+DESCRIPTION:A panel that highlights Monterrey’s entrepreneurial ecosystem\, showcasing how local innovation\, talent\, and business vision are transforming the region and creating economic and social impact.\n\nSpeakers: Genaro Joel Rodriguez Santoyo\, Efren Ricardo Robledo Leal\, Gustavo García Gonzalez
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE INTERNACIONALIZACIÓN  SALA CANCILLERES)
+END:VEVENT
+BEGIN:VEVENT
+UID:37ee617a-8bfd-44dc-b346-048db0da6572@incmty2026
+DTSTART:20260319T222000Z
+DTEND:20260319T231000Z
+SUMMARY:FUN: FAIL FAST\, GROW SMART FROM ERROR TO ADVANTAGE by Fuckup Nights MTY
+DESCRIPTION:Failing is not always losing\; if taken advantage of\, it is investing in knowledge that increases profitability\, strengthens leadership\, and cultivates a culture of innovation. Companies that learn faster from their mistakes grow smarter\, more humane\, and more sustainable.\n\nSpeakers: Hazael Misraim L.\, Fernando Suárez Serna\, Marcelo Bremer\, Olga Esthela Quiroz Ruiz\, Jesús "Chuy" Benell
+LOCATION:UANL | ESCENARIO SECUNDARIO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  AULA 1)
+END:VEVENT
+BEGIN:VEVENT
+UID:17f3039c-dba9-4755-9182-7008bc83dd3a@incmty2026
+DTSTART:20260319T230000Z
+DTEND:20260320T000000Z
+SUMMARY:Business Leadership
+DESCRIPTION:Personalized Mentorship\n\nSpeakers: Luis Casas
+LOCATION:UANL | STAND STARTUP MÉXICO | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  INTERNATIONAL PAVILLION)
+END:VEVENT
+BEGIN:VEVENT
+UID:d9c1813c-cfa8-4bb3-87c3-235759c82bf5@incmty2026
+DTSTART:20260319T232000Z
+DTEND:20260320T000000Z
+SUMMARY:Entrepreneuship Keynote Conference
+DESCRIPTION:A keynote conference that inspires entrepreneurs to turn ideas into successful ventures\, exploring innovative strategies\, leadership\, and resilience to overcome the challenges of today’s business world.
+LOCATION:UANL | MAIN STAGE | (CENTRO DE EDUCACIÓN DIGITAL Y EMPRENDIMIENTO  EXPLANADA CEDE)
+END:VEVENT
+BEGIN:VEVENT
+UID:cbefdac6-8246-42cb-a7c5-4764c99764fe@incmty2026
+DTSTART:20260320T000000Z
+DTEND:20260320T030000Z
+SUMMARY:Thursday Gathering: Shared Horizons: Innovation Mexico-Japan
+DESCRIPTION:Venture Café Monterrey Thursday Gathering\, focused on fostering dialogue around the ties between Monterrey and Japan\, as well as exploring opportunities for exchange and business development between both regions.During the event\, we will discuss programs and opportunities with JETRO and JICA\, and introduce the annual Pitch2Tokyo innovation competition by Venture Café Global\, which connects innovators from Venture Café locations around the world.The event will take place on Thursday\, March 19\, from 6:00 to 9:00 PM at Venture Café Monterrey (Expedition FEMSA\, 2nd Floor).\n\nSpeakers: Dan Cabral
+LOCATION:TEC | (EXPEDITION FEMSA - VENTURE CAFE)
+END:VEVENT
+BEGIN:VEVENT
+UID:fddcfc6f-aa4e-438c-8c9c-4f6a591d54ef@incmty2026
+DTSTART:20260320T140000Z
+DTEND:20260320T180000Z
+SUMMARY: Padel Tech Connect Monterrey by BBVA Spark | Capacit.io | High Flow | InBest
+DESCRIPTION:2nd Edition Padel Tech Connect MonterreyWhere the ecosystem truly meets.This March 20\, as part of incMTY\, we’re back with more energy to bring together 50+ CEOs\, founders\, and investors from some of Mexico’s leading technology companies.Because the best partnerships don’t always start in a boardroom…sometimes they begin on the court. 🤝Register here 👉 https://luma.com/55watjuzSee you on the court! 🎾🔥Invitation-only event
+END:VEVENT
+END:VCALENDAR
