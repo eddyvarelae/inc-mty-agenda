@@ -1,13 +1,15 @@
+import { useI18n } from '../i18n'
 import { trackEvent } from '../analytics'
 
 const FILTER_SECTIONS = [
-  { key: 'stage', label: 'Stage / Venue', dataKey: 'stages' },
-  { key: 'tematica', label: 'Topic', dataKey: 'tematicas' },
-  { key: 'pilar', label: 'Track', dataKey: 'pilares' },
-  { key: 'perfil', label: 'Audience', dataKey: 'perfiles' },
+  { key: 'stage', labelKey: 'stage_venue', dataKey: 'stages' },
+  { key: 'tematica', labelKey: 'topic', dataKey: 'tematicas' },
+  { key: 'pilar', labelKey: 'track', dataKey: 'pilares' },
+  { key: 'perfil', labelKey: 'audience', dataKey: 'perfiles' },
 ]
 
 export default function Sidebar({ data, filters, activeDay, onFilterChange, onClear, open, onClose }) {
+  const { t } = useI18n()
   const dayEvents = activeDay
     ? data.events.filter(e => e.start.startsWith(activeDay))
     : data.events
@@ -17,14 +19,14 @@ export default function Sidebar({ data, filters, activeDay, onFilterChange, onCl
       {open && <div className="sidebar-backdrop" onClick={onClose} />}
       <aside className={`sidebar ${open ? 'open' : ''}`}>
         <div className="sidebar-header">
-          <span className="sidebar-title">Filters</span>
+          <span className="sidebar-title">{t('filters')}</span>
           <button className="sidebar-close" onClick={onClose}>
             <i className="fa-solid fa-xmark"></i>
           </button>
         </div>
-        {FILTER_SECTIONS.map(({ key, label, dataKey }) => (
+        {FILTER_SECTIONS.map(({ key, labelKey, dataKey }) => (
           <div className="filter-section" key={key}>
-            <div className="filter-title">{label}</div>
+            <div className="filter-title">{t(labelKey)}</div>
             <div className="filter-chips">
               {data.filters[dataKey].map(item => {
                 const count = dayEvents.filter(e => e[key] === item).length
@@ -46,7 +48,7 @@ export default function Sidebar({ data, filters, activeDay, onFilterChange, onCl
         ))}
         <div style={{ marginTop: '1rem' }}>
           <button className="btn btn-sm" onClick={() => { trackEvent('filter_clear_all'); onClear() }} style={{ width: '100%' }}>
-            Clear all filters
+            {t('clear_all')}
           </button>
         </div>
       </aside>

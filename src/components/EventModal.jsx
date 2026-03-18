@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import { fmtDayLabel, fmtTimeRange, stripHtml, truncate, downloadICS, googleCalendarUrl } from '../utils'
 import { useGoogleCalendar } from '../hooks/useGoogleCalendar'
+import { useI18n } from '../i18n'
 import { trackEvent } from '../analytics'
+import SimilarEvents from './SimilarEvents'
 
 function SpeakerCard({ speaker }) {
+  const { t } = useI18n()
   const [expanded, setExpanded] = useState(false)
   const bio = speaker.bio ? stripHtml(speaker.bio) : ''
   const hasPicture = speaker.picture && !speaker.picture.includes('missing')
@@ -28,7 +31,7 @@ function SpeakerCard({ speaker }) {
             </div>
             {bio.length > 300 && (
               <button className="bio-toggle" onClick={() => setExpanded(!expanded)}>
-                {expanded ? 'Show less' : 'Show more'}
+                {expanded ? t('show_less') : t('show_more')}
               </button>
             )}
           </>
@@ -38,7 +41,8 @@ function SpeakerCard({ speaker }) {
   )
 }
 
-export default function EventModal({ event, isBookmarked, onToggleBookmark, onClose }) {
+export default function EventModal({ event, isBookmarked, onToggleBookmark, onClose, allEvents, bookmarks, onEventClick }) {
+  const { t } = useI18n()
   const gcal = useGoogleCalendar()
   if (!event) return null
 
@@ -78,7 +82,7 @@ export default function EventModal({ event, isBookmarked, onToggleBookmark, onCl
             className={`btn ${isBookmarked ? 'btn-primary' : ''}`}
             onClick={(e) => { e.stopPropagation(); onToggleBookmark(event.id) }}
           >
-            <i className={`fa-${isBookmarked ? 'solid' : 'regular'} fa-star`}></i> {isBookmarked ? 'Bookmarked' : 'Bookmark'}
+            <i className={`fa-${isBookmarked ? 'solid' : 'regular'} fa-star`}></i> {isBookmarked ? t('bookmarked') : t('bookmark')}
           </button>
           <button className="btn" onClick={handleExport}>
             <i className="fa-solid fa-calendar-plus"></i> .ics
@@ -90,7 +94,7 @@ export default function EventModal({ event, isBookmarked, onToggleBookmark, onCl
               disabled={gcal.status === 'loading'}
             >
               <i className="fa-brands fa-google"></i>
-              {gcal.status === 'loading' ? ' Adding...' : gcal.status === 'success' ? ' Added!' : ' Google Calendar'}
+              {gcal.status === 'loading' ? ` ${t('adding')}` : gcal.status === 'success' ? ` ${t('added')}` : ` ${t('google_calendar')}`}
             </button>
           ) : (
             <a
@@ -100,17 +104,17 @@ export default function EventModal({ event, isBookmarked, onToggleBookmark, onCl
               rel="noopener noreferrer"
               onClick={e => { e.stopPropagation(); trackEvent('modal_google_cal_link', { event_id: event.id, event_name: event.name }) }}
             >
-              <i className="fa-brands fa-google"></i> Google Calendar
+              <i className="fa-brands fa-google"></i> {t('google_calendar')}
             </a>
           )}
         </div>
         <div
           className="modal-desc"
-          dangerouslySetInnerHTML={{ __html: event.description || '<em style="color:var(--text-dim)">No description available</em>' }}
+          dangerouslySetInnerHTML={{ __html: event.description || `<em style="color:var(--text-dim)">${t('no_description')}</em>` }}
         />
         {event.speakers.length > 0 && (
           <div className="modal-speakers">
-            <h3>Speakers</h3>
+            <h3>{t('speakers_heading')}</h3>
             {event.speakers.map(s => <SpeakerCard key={s.name} speaker={s} />)}
           </div>
         )}
@@ -120,6 +124,14 @@ export default function EventModal({ event, isBookmarked, onToggleBookmark, onCl
               {event.categories.map(c => <span key={c} className="tag">{c}</span>)}
             </div>
           </div>
+        )}
+        {allEvents && (
+          <SimilarEvents
+            event={event}
+            allEvents={allEvents}
+            bookmarks={bookmarks || {}}
+            onEventClick={onEventClick}
+          />
         )}
       </div>
     </div>

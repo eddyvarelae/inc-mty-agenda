@@ -83,6 +83,47 @@ export function googleCalendarUrl(ev) {
   return `https://calendar.google.com/calendar/render?${params.toString()}`
 }
 
+// MTY timezone offset: UTC-6 (CST)
+const MTY_OFFSET = -6
+
+function toMTY(date) {
+  const d = new Date(date)
+  return new Date(d.getTime() + MTY_OFFSET * 60 * 60 * 1000)
+}
+
+export function getMTYToday() {
+  return toMTY(new Date()).toISOString().substring(0, 10)
+}
+
+export function isToday(dateStr) {
+  return dateStr === getMTYToday()
+}
+
+export function isTomorrow(dateStr) {
+  const today = toMTY(new Date())
+  const tomorrow = new Date(today)
+  tomorrow.setUTCDate(tomorrow.getUTCDate() + 1)
+  return dateStr === tomorrow.toISOString().substring(0, 10)
+}
+
+export function minutesUntil(isoStart) {
+  return (new Date(isoStart).getTime() - Date.now()) / 60000
+}
+
+export function getEventStatus(start, end) {
+  const now = Date.now()
+  const s = new Date(start).getTime()
+  const e = new Date(end).getTime()
+  if (now >= s && now <= e) return 'live'
+  if (now < s && (s - now) <= 30 * 60000) return 'starting-soon'
+  if (now > e) return 'past'
+  return 'upcoming'
+}
+
+export function eventsOverlap(a, b) {
+  return new Date(a.start) < new Date(b.end) && new Date(b.start) < new Date(a.end)
+}
+
 export function openGoogleCalendarBulk(events) {
   // Open first event immediately, rest with small delays to avoid popup blockers
   events.forEach((ev, i) => {
